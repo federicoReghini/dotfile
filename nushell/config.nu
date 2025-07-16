@@ -1058,6 +1058,8 @@ alias ll = ls -l
 
 # Git 
 alias gf = git fetch
+alias gp = git pull 
+alias gP = git push 
 
 # Python
 alias pip = pip3

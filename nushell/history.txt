@@ -9481,3 +9481,857 @@ npm run ios-test-tf
 npm run build_wave
 nvim
 nvim
+clear
+nvim
+cd packages/cli
+npm run build
+clint mock
+clint mock start
+clint mock build
+clera
+clear
+cd clienteling
+nvim
+clint mock start
+nvim
+git stash
+nvim
+gitc
+git stash list
+git stash apply stash@{0}<\n>
+nvim
+clint mock start
+nvim
+clint mock start
+nvim
+cd packages/cli
+npm run build
+npm run dev
+clint start
+clint start --clear --port 8081
+npm run build
+cd clienteling
+nvim
+npm run start
+nvim
+npm run start
+nvim
+npm run start
+clear
+nvim
+nvim
+clear
+npm i
+npm run start
+nvim
+gh copilot explain "how to remove a stash"
+clear
+nvim
+clear
+tmux attach -t work
+clear
+clear
+npm run  build
+clear
+clint mock build
+clear
+npm run  build
+clint mock build
+npm run  build
+clint mock build
+npm run  build
+clint mock build
+nvim
+npm run  build
+clear
+clear
+vim
+cd clienteling
+clint mock build
+clear
+nvim
+cd packages/cli
+npm run  build
+clear
+cd clienteling
+clint mock build
+vim
+npm run  build
+clear
+clear
+nvim
+clear
+nvim
+clear
+gitc
+gf
+git pull
+clear
+gitc
+git merge feature/cli-mock
+clear
+clint mock build
+cd clienteling
+clint mock build
+clear
+nvim
+clint mock build
+clear
+nvim
+clear
+git stash drop
+clera
+clear
+gitc
+git pull
+git merge develop
+git push
+clear
+gf
+clear
+gitc
+gitd
+gitc
+cd retail
+npm i
+cd packages/cli
+nvim
+gitc
+npx expo start
+clear
+nvim
+clint mock start
+clear
+nvim
+clint mock start
+clear
+npx expo start
+clear
+nvim
+clint mock build
+nvim
+cd retail
+npx turbo start --filter=my-clienteling
+cd clienteling
+clint mock start
+nvim
+nvi
+vim
+nvim
+gf
+gitc
+git pull
+git merge develop
+nvim
+git pushn
+git push
+clear
+gitc
+cd clienteling
+npm run update
+cd packages/cli
+nvim
+npm run build
+clear
+npm run update
+cd retail
+npm i
+cd clienteling
+npm run update
+nvim
+nvim
+vim
+npm run build
+npm run update
+vim
+npm run build
+npm run update
+clear
+vim
+npm run update
+npm run build
+vim
+npm run build
+npm run update
+vim
+vim
+npm run update
+clear
+nvim
+gitc
+git merge develop
+gf
+git pull
+git push
+clear
+gitc
+clera
+clear
+gitc
+git merge develop
+nvim
+clear
+npx expo install --check
+nvim
+cd retail
+npm i
+npx expo install --check
+npx expo-doctor
+npm run build
+npm install -g eas-cli
+clear
+npm run build
+clear
+cd packages/cli
+nvim
+npm run build
+clear
+npm run build
+clera
+clear
+nvim
+npm run build
+clera
+clear
+npm run start
+clear
+nvim
+vim
+npm run start
+vim
+nvim
+npx expo start --clear
+cd retail
+npx turbo clean
+rm -rf package-lock.json
+rm -rf node_modules
+cd clienteling
+cd retail
+npm i
+cd clienteling
+npm run start
+nvim
+npm run build
+clear
+npm run build
+nvim
+npm run build
+clear
+vim
+nvim
+npm run build
+npx expo-doctor
+npx expo install --check
+npx expo-doctor
+npm run build
+npm run start
+clear
+cd retail
+npm i
+npm run start
+npx expo-doctor
+npm run build
+clear
+npm run start
+npx turbo clean
+rm -rf node_modules
+rm -rf package-lock.json
+npm i
+clear
+npm run start
+nvim
+clear
+nvim
+clear
+gf
+clear
+git checkout -b feature/expo-53-495
+gf
+git pull origin develop
+clear
+gitc
+git pull origin feature/495-add-product-refactor
+nvim
+npx lint-staged
+nvim
+npx expo lint
+nvim
+vim
+npm i
+npx turbo clean
+rm -rf package-lock.json
+rm -rf node_modules
+npm i
+nvim
+npm i
+npx expo lint
+nvim
+npm i
+clera
+gitc
+nvim
+gitc
+git push
+clear
+gitc
+clear
+git pull
+gitc
+git pull
+git merge feature/update-packages
+nvim
+clear
+git pull origin develop
+nvim
+clear
+gitc
+gf
+git pull origin feature/498-refactor-clients
+git pull origin feature/500-opportunities-client-form
+clear
+gitc
+git push
+gitc
+git pull origin feature/495-add-product-refactor
+clera
+clear
+npm run start
+cd retail
+npx turbo clean
+rm -rf node_modules package-lock.json
+nvim
+npm i
+cd clienteling
+npm run start
+clear
+nvim
+clear
+gf
+git checkout feature/500-opportunities-client-form
+gitc
+git pull
+gitc
+git merge develop
+clear
+nvim
+nvim
+vim
+npm run start
+nvim
+gf
+git checkout feature/503-opportunity-detail
+nvim
+git checkout feature/503-opportunity-detail
+clear
+nvim
+gitc
+clear
+git pull
+gf
+nvim
+vim
+ff
+gf
+git pull master
+git pull origin master
+clear
+nvim
+npm run build
+clear
+gf
+git checkout feature/504-planner-opportunity-section
+nvim
+npm run start
+clear
+nvim
+gitc
+gf
+clear
+nvim
+npm run build
+cd ..
+vim
+cd ebsn
+npm run build
+clear
+clear
+cd myclienteling-app-mobile
+nvim
+gitc
+vim
+npm i
+nvim
+ios-tf-prod
+npm run ios-tf-prod
+nvim
+npm run build
+cd lib
+npm publish
+cd ..
+npm run ios-tf-prod
+clear
+nvim
+gf
+git checkout feature/503-opportunity-detail
+git pull
+clear
+nvim
+npm i
+nvim
+clear
+nvim
+gitc
+vim
+gitc
+nvim
+npm run build
+cd lib
+cd ..
+vim
+npm run build
+cd lib
+npm publish
+npm run start
+cd retail
+npm i
+cd clienteling
+npm run start
+cd retail
+npx turbo clean
+rm -rf node_modules package-lock.json
+npm i
+cd clienteling
+npm run start
+clear
+j
+clear
+:qa
+clear
+nvim
+clear
+nvim
+node -v
+clear
+vim
+node -v
+cd clienteling
+nvim
+npx expo lint
+npx @eslint/migrate-config .eslintrc.js
+npm install @eslint/js @eslint/eslintrc -D
+vim
+clear
+npx expo lint
+nvim
+clear
+npm run build-wave
+npm run build_wave
+npm run start
+cd retail
+npx turbo clean
+rm -rf node_modules package-lock.json
+npm i
+nvim
+git pull
+nvim
+git pull
+nvim
+npm i eslint
+nvim
+npm install --save-dev @typescript-eslint/eslint-plugin@latest @typescript-eslint/parser@latest
+nvim
+npx turbo clean
+rm -rf node_modules package-lock.json
+npm i
+npx turbo clean
+rm -rf node_modules package-lock.json
+npm i
+vim
+nvi
+npm run start
+clear
+vim
+gf
+nvim
+cd downloads
+ls
+productExplorerApp
+cd productExplorerApp
+ls
+vim
+cd ..
+rm -rf productExplorerApp
+npx create-expo-app ProductExplorerApp --template blank@53
+npx expo install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context  expo-camera expo-location
+cd productExplorerApp
+npx expo install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context  expo-camera expo-location
+nvim
+cd ..
+rm -rf productExplorerApp
+npx create-expo-app ProductExplorerApp
+npx create-expo-app ProductExplorerApp --template
+rm -rf productExplorerApp
+npx create-expo-app ProductExplorerApp --template
+cd productExplorerApp
+npx expo install expo-camera expo-location
+nvim
+npx expo install react-native-gesture-handler
+clear
+vim
+zip -r productExercise.zip productExplorerApp
+zip -r productExercise.zip productExplorerApp/
+zip compress productExercise.zip productExplorerApp/
+zip compress
+zip compress productExplorerApp
+zip compress --help
+# Use the external zip binary explicitly<\n>run zip -r ProductExplorerApp.zip ProductExplorerApp
+which zip
+tmux 
+gf
+clear
+gf
+git pull
+clear
+nvim
+cd
+cd ssh
+ls
+cd retail
+cd ..
+vim
+npm run build
+cd lib
+npm publish
+clear
+npx turbo clean
+rm -rf node_modules package-lock.json
+npm i
+clear
+npm run start
+nvim
+gf
+git pull
+git push
+clear
+gf
+git pull
+npm run start
+gf
+git pull
+nvim
+cd clienteling
+vim
+cd retail
+cd myclienteling-app-mobile
+npm run build
+clear
+vim
+cd downloads
+ls
+cd RnExercise
+cd clienteling
+vim
+cd ..
+vim
+npm run build
+cd lib
+npm publish
+vim
+clear
+npx turbo clean
+rm -rf node_modules package-lock.json
+gf
+git pull
+npm run start
+clear
+npm i
+cd ..
+nvim
+gf
+git pull
+nvim
+gf
+git pull
+vim
+npm run build
+cd lib
+npm publish
+cd ..
+npm run start
+npx turbo clean
+rm -rf node_modules package-lock.json
+npm i
+vim
+gf
+npm run start
+npm install -g eas-cli
+npx expo-doctor
+nx
+npx expo install --check
+vim
+npm run build
+vim
+clear
+npm run start
+vim
+cd retail
+npx turbo clean
+rm -rf node_modules package-lock.json
+clear
+clear
+npm i
+npm run start
+npm run build
+clear
+npm run build
+npx turbo clean
+rm -rf node_modules package-lock.json
+npm i
+vim
+npx turbo clean
+rm -rf node_modules package-lock.json
+npm i
+cd clienteling
+npm run build
+clear
+vim
+vim
+npx turbo clean
+rm -rf node_modules package-lock.json
+npm i
+npm run build
+vim
+npx turbo clean
+rm -rf node_modules package-lock.json
+npm i
+npm run start
+clea
+clear
+npm run build
+rm -rf node_modules package-lock.json apps/native/my-clienteling/node_modules apps/native/my-clienteling/package-lock.json
+npm install
+cd /Users/federicoreghini/Documents/beije/engineering/retail-platform-mono/apps/native
+npm install --workspace=my-clienteling
+cd /Users/federicoreghini/Documents/beije/engineering/retail-platform-mono
+git status
+npm ci
+cd retail
+npm ci
+cd clienteling
+vim
+rm -rf node_modules package-lock.json 
+npm ci
+npm i
+npm ci
+vim
+npx expo start --no-dev --minify
+vim
+rm -rf node_modules package-lock.json 
+npx turbo clean
+npm i
+npx expo start --no-dev --minify
+clear
+npm ci
+cd retail
+npm ci
+vim
+npm i
+cd clienteling
+npm ci
+npx expo start --no-dev --minify
+clear
+vim
+clear
+git checkout -b expo-52
+npm run build
+npm run start
+gitc
+nvim
+npm run start
+vim
+gf
+git push
+clear
+npx expo start --no-dev --minify
+git checkout -b release/27
+npx expo install expo@~52.0.46
+npx expo-doctor
+npx expo install --check
+npm cache clean --force && rm -rf node_modules package-lock.json && cd apps/native/my-clienteling && rm -rf node_modules package-lock.json && cd ../../.. && npm install
+npm cache clean --force && rm -rf node_modules package-lock.json && cd apps/native/my-clienteling && rm -rf node_modules package-lock.json ; cd ../../.. ; npm install
+npm cache clean --force ; rm -rf node_modules package-lock.json ; cd apps/native/my-clienteling ; rm -rf node_modules package-lock.json ; cd ../../.. ; npm install
+cd /Users/federicoreghini/Documents/beije/engineering/retail-platform-mono/apps/native/my-clienteling
+npx expo install --check
+vim
+clera
+gitc
+clear
+gitc
+npx expo install expo@~52.0.46
+npx expo-doctor
+vim
+clea
+gitc
+nvim
+clear
+vim
+clear
+npm run start
+npm run update
+npm run start
+npm run update
+clear
+npm run update
+clear
+nvim
+gf
+vim
+git pull
+clear
+npm run build
+clear
+npm run build
+clear
+vim
+clear
+nvim
+vim
+gf
+git pull
+clear
+npm run start
+npm run update
+nvim
+npm run start
+npm run update
+vim
+npm run update
+clear
+vim
+npm run update
+clear
+nvim
+npm run update
+clear
+npm run update
+clear
+nvim
+npm run update
+npm run start
+npm run update
+nvim
+clear
+clea
+clear
+gitc
+clear
+git pull
+gf
+git pull
+clear
+cd myclienteling-app-mobile
+gitc
+clear
+cd myclienteling-app-mobile
+npm run test
+npm i
+nvim
+npm i --force
+npm run dev
+clear
+npm i
+npm run dev
+clear
+nvim
+vim
+clear
+rm -rf node_modules package-lock.json 
+npm i
+npm run dev
+npm i
+npm run dev
+gf
+clear
+clear
+nvim
+npm run build
+cd lib
+npm publish
+cd ..
+npm run build
+cd lib
+npm publish
+cd ..
+nvim
+npm run build
+rm -rf  lib
+npm run build
+cd lib
+npm publish
+cd ..
+clear
+cd retail
+clear
+npm i
+npm run start
+nvim
+clear
+gf
+git pull
+nvim
+git checkout -b feature/518
+gf
+git pull origin feature/521-handle-remove-opportunity
+clear
+git checkout -b release/sprint-17
+clear
+git push
+fuck
+git push -u origin release/sprint-17
+clear
+vim
+clear
+git checkout -b feature/519
+clear
+nvim
+clear
+gitc
+gf
+git pull
+clear
+gitc
+clear
+vim
+clear
+git commit --amend
+git reset --soft HEAD~1
+git checkout -b feature/523
+vim
+clear
+npm run build
+cd lib
+npm publish
+npm
+npm i
+npm run start
+clear
+gitc
+gf
+gf
+gitc
+git pull
+clear
+gitc
+clear
+gitc
+gf
+git pull
+clear
+gf
+git pull
+gitc
+git pull
+cd ..
+vim
+source ~/.config/nushell/config.nu
+clear
