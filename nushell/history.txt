@@ -10335,3 +10335,264 @@ cd ..
 vim
 source ~/.config/nushell/config.nu
 clear
+vim
+cd nvim
+vim
+nvim
+clear
+clear
+gitc
+nvim
+clear
+vim
+clear
+gf
+clear
+clear
+nvim
+gitc
+gf
+gp
+source ~/.config/nushell/config.nu
+gp
+clear
+npm run start
+gf
+gp
+source ~/.config/nushell/config.nu
+gp
+clear
+clera
+clear
+gf
+gp
+clear
+cd packages/ui
+vim
+cd retail
+cd myclienteling-app-services
+gf
+gp
+git reset --soft HEAD~1
+clear
+npm run start
+nvim
+gf
+gp
+clear
+gf
+nvim
+vim
+clear
+npm run start
+nvim
+vim
+gf
+npx expo run:android
+cd .zshrc
+cd
+cd .zshrc
+ls
+cd zsrch
+cd .config
+brew install openjdk@17<\n>
+vim
+source ~/.zshrc
+cd .zshrc
+vim
+java --version
+echo $JAVA_HOME
+source ~/.zshrc
+clear
+java --version
+source ~/.zshrc
+java --version
+cd retail
+npx expo run:android
+clear
+nvim
+gf
+gp
+clear
+nvim
+gf
+vim
+clear
+clear
+npm run start
+clear
+clear
+gf
+git pull
+gitc
+git pull origin release/sprint-17
+npm run start
+clear
+vim
+gf
+nvim
+gf
+gp
+clear
+source ~/.config/nushell/config.nu
+npm run start
+gf
+gitc
+git pull origin feature/523
+clear
+npm run update
+vim
+npm run update
+clear
+nvim
+clear
+gitc
+gf
+git pull origin feature/523
+git push
+clear
+gitc
+git pull origin release/sprint-17
+git push
+clear
+gitd
+clear
+nvim
+vim
+clear
+npm run update
+vim
+npm run update
+<\n>clera
+clera
+clear
+gf
+vim
+clear
+git checkout -b backup/twilio-mct3-react
+cd retail
+npx turbo clean
+vim
+clear
+git push
+vim
+git push
+clear
+clera
+clear
+gitc
+gitd
+clear
+npx turbo clean
+rm -rf node_modules package-lock.json 
+npm i
+clear
+vim
+clear
+cd clienteling
+npm run start
+cd retail
+cd apps/my-clienteling
+npm run start
+clear
+nvim
+gf
+clear
+cd clienteling
+cd retail
+cd apps/my-clienteling
+cd my-clienteling
+clear
+cd retail
+clear
+git checkout refactor/calendar
+vim
+cd my-clienteling
+vim
+gf
+gp
+clear
+vim
+clear
+vim
+npm run start
+cd retail
+tmux attach -t work
+clear
+vim
+vim
+gf
+gp
+gitc
+git merge refactor/calendar
+git push
+gitc
+clear
+gf
+gp
+nvim
+vim
+clear
+vim
+cd
+curl -sS https://webi.sh/golang | sh; \<\n>source ~/.config/envman/PATH.env
+go --version
+go version
+go version
+node -v
+go
+source ~/.config/nushell/config.nu
+go
+clear
+tmux detach
+tmux
+cd nushell
+vin
+vim
+source ~/.config/nushell/config.nu
+vim
+source ~/.config/nushell/config.nu
+go version
+source ~/.config/nushell/config.nu
+go version
+which go
+ls /usr/local/go/bin/go
+/usr/local/go/bin/go version
+vim
+source ~/.config/nushell/config.nu
+vin
+vim
+source ~/.config/nushell/config.nu
+nushell
+vim
+source ~/.config/nushell/config.nu
+go version
+clear
+clear
+cd projects
+ls
+mkdir bootdev
+cd bootdev
+bootdev run 148c8301-4cda-46fc-9a4f-6613c647939c
+go install github.com/bootdotdev/bootdev@latest
+bootde --version
+bootdev --version
+cd nushell
+vim
+source ~/.config/nushell/config.nu
+go version
+which bootdev
+echo $env.HOME<\n>
+ls ($env.HOME | path join "go/bin")<\n>
+source ~/.config/nushell/config.nu
+bootdev --version
+bootdev
+ls ~/go/bin/bootdev<\n>
+echo $env.PATH<\n>
+which bootdev
+source ~/.config/nushell/config.nu
+echo $env.PATH | where {|p| $p =~ 'go/bin' }<\n>
+bootdev help<\n>
+bootdev --version<\n>
+clear
+vim

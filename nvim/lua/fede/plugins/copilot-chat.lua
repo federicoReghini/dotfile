@@ -166,6 +166,10 @@ return {
 
     -- Generate commit message based on the git diff
     {
+      mode = {
+        "n",
+        "i",
+      },
       "<leader>am",
       "<cmd>CopilotChatCommit<cr>",
       desc = "CopilotChat - Generate commit message for all changes",

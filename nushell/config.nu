@@ -1091,6 +1091,10 @@ $env.PATH = ($env.PATH | prepend "/opt/homebrew/bin")
 
 $env.__zoxide_hooked = true
 
+
+# Go Environment Setup
+$env.PATH = ($env.PATH | append "/usr/local/go/bin")
+$env.PATH = ([$env.PATH, ($env.HOME | path join "go/bin")] | flatten)
 source ~/.config/nushell//env.nu
 source ~/.zoxide.nu
 source ~/.cache/carapace/init.nu
