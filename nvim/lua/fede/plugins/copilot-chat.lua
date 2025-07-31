@@ -18,7 +18,7 @@ local prompts = {
   Commit = {
     prompt = "Write commit message for the change with commitizen convention. Keep the title under 50 characters and wrap message at 72 characters. Format as a gitcommit code block.",
     context = "git:staged",
-    model = "gpt-4o-mini",
+    model = "gpt-4o",
   },
 }
 

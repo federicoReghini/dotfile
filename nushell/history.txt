@@ -10596,3 +10596,282 @@ bootdev help<\n>
 bootdev --version<\n>
 clear
 vim
+bootdev run 148c8301-4cda-46fc-9a4f-6613c647939c
+bootdev login
+bootdev run 148c8301-4cda-46fc-9a4f-6613c647939c
+bootdev run 148c8301-4cda-46fc-9a4f-6613c647939c -s
+cd ..
+rm bootdev
+cd ..
+ls
+mkdir workspace
+cd workspace
+mkdir golang
+cd golang
+mkdir hellogo
+cd hellogo
+go mod init example.com/username/hellogo
+vim
+cat go.mod
+bootdev run 7dc6a0c9-d3d8-4536-8e88-ca88fee35049
+bootdev run 7dc6a0c9-d3d8-4536-8e88-ca88fee35049 -s
+touch main.go
+vim main.go
+go run
+go run main.go
+vim main.go
+go run main.go
+bootdev run 52dda666-1573-49c3-a1b2-cb54bbf892e9 -s
+bootdev run 52dda666-1573-49c3-a1b2-cb54bbf892e9 
+go run main.go
+bootdev run 52dda666-1573-49c3-a1b2-cb54bbf892e9 
+bootdev run 52dda666-1573-49c3-a1b2-cb54bbf892e9 -s
+vim main.go
+bootdev run 52dda666-1573-49c3-a1b2-cb54bbf892e9 
+bootdev run 52dda666-1573-49c3-a1b2-cb54bbf892e9 -s
+go build
+./hellogo
+vim
+bootdev run 54c794e4-55d8-4c43-8d95-b22a3ebdca2f -s
+go install
+cd ..
+hellogo
+bootdev run 576b7605-b5d7-42aa-92a9-7c8e63929a09 -s
+cd hellogo
+cd ..
+mkdir mystrings
+cd mystrings
+cd hellogo
+vim
+cd m
+cd mystrings
+go mod init example.com/username/mystrings
+touch mystrings.go
+vim mystrings.go
+go build
+bootdev run 2c32a5fc-6827-48f9-a033-392881ff3ca5 -s
+cd hellogo
+vim
+go build
+vim
+go build
+./hellogo
+B
+bootdev run 5e5236b3-9ce4-45de-8759-ac3afabf0cbb -s
+go mod init example.com/username/datetest
+cd ..
+go mod init example.com/username/datetest
+cd datetest
+ls
+vim
+mkdir datetest
+cd datetest
+go mod init example.com/username/datetest
+vim main.go
+go get github.com/wagslane/go-tinytime
+cat go.mod
+go build
+./datetest
+bootdev run 9c49ad86-aee5-4f56-8df2-59ae5cdb194d -s
+clear
+tmux attach -t work
+tmux
+tmux 
+tmux attach
+cd ebsn
+clear
+cd clienteling
+clear
+tmux new-session -s work
+clear
+cd clienteling
+cd retail
+clear
+cd packages/ui
+vim
+clear
+cd apps/my-clienteling
+vim
+gf
+gp
+vi
+vim
+clear
+cd packages/ui
+vim
+cd m
+cd clienteling
+cd apps/my-clienteling
+clear
+vim
+cd apps/my-clienteling
+npm run start
+clear
+vim
+clear
+bootdev run 67de86ba-5228-4ec6-b2ea-a59aa4944405
+bootdev run 67de86ba-5228-4ec6-b2ea-a59aa4944405 -s
+man curl
+curl https://api.boot.dev/v1/courses_rest_api/learn-http/issues -> tmp/issues.json
+curl https://api.boot.dev/v1/courses_rest_api/learn-http/issues > tmp/issues.json
+ls
+mkdir tmp/issues.json
+ls
+curl https://api.boot.dev/v1/courses_rest_api/learn-http/issues > tmp/issues.json
+cd tmp
+curl https://api.boot.dev/v1/courses_rest_api/learn-http/issues > issues.json
+cd ..
+curl https://api.boot.dev/v1/courses_rest_api/learn-http/issues -o tmp/issues.json
+cd tmp
+curl https://api.boot.dev/v1/courses_rest_api/learn-http/issues -o issues.json
+cd ..
+file tmp/issues.json<\n>
+rm -r tmp/issues.json
+ls
+cd tmp
+ls
+curl https://api.boot.dev/v1/courses_rest_api/learn-http/issues -o issues.json
+ls
+bootdev run f8584cac-3fae-4cf9-9a74-38d45f9d6fc9 -s
+cd ..
+bootdev run f8584cac-3fae-4cf9-9a74-38d45f9d6fc9 -s
+ls
+rm -r tmp/issues.json
+ls
+bootdev run f8584cac-3fae-4cf9-9a74-38d45f9d6fc9 
+rm -r tmp/issues.json
+ls
+cd tmp
+ls
+cd ..
+bootdev run f8584cac-3fae-4cf9-9a74-38d45f9d6fc9 -s
+bootdev run f8584cac-3fae-4cf9-9a74-38d45f9d6fc9 
+curl https://api.boot.dev/v1/courses_rest_api/learn-http/issues -o tmp/issues.json
+bootdev run f8584cac-3fae-4cf9-9a74-38d45f9d6fc9 -s
+bootdev run f8584cac-3fae-4cf9-9a74-38d45f9d6fc9 
+cd tmp
+ls
+cd ..
+rm -rf tmp
+ls
+curl https://api.boot.dev/v1/courses_rest_api/learn-http/issues -o tmp/issues.json
+curl https://api.boot.dev/v1/courses_rest_api/learn-http/issues -o /tmp/issues.json
+ls
+bootdev run f8584cac-3fae-4cf9-9a74-38d45f9d6fc9 -s
+curl -X POST https://api.boot.dev/v1/courses_rest_api/learn-http/users -H "Content-Type: application/json" -d "{<\n>  "role": "QA Job Safety",<\n>  "experience": 2,<\n>  "remote": true,<\n>  "user": {<\n>    "name": "Dan",<\n>    "location": "NOR",<\n>    "age": 29<\n>  }<\n>}" -o /tmp/user.json
+bootdev run 9b8c679a-ac43-4d72-aed3-78f4e2a51724 -s
+curl -X POST https://api.boot.dev/v1/courses_rest_api/learn-http/users -H "Content-Type: application/json" -d '{<\n>  "role": "QA Job Safety",<\n>  "experience": 2,<\n>  "remote": true,<\n>  "user": {<\n>    "name": "Dan",<\n>    "location": "NOR",<\n>    "age": 29<\n>  }<\n>}' -o /tmp/user.json
+bootdev run 9b8c679a-ac43-4d72-aed3-78f4e2a51724 -s
+jq --version
+bootdev run c18860ae-cf7c-47b6-9abb-4e2084e3268e -s
+curl https://api.boot.dev/v1/courses_rest_api/learn-http/issues
+curl https://api.boot.dev/v1/courses_rest_api/learn-http/issues | jq '.[]title, .[]estimate'
+curl https://api.boot.dev/v1/courses_rest_api/learn-http/issues | jq '.[]title' | jq '.[]estimate'
+curl https://api.boot.dev/v1/courses_rest_api/learn-http/issues | jq '.[] | {title, estimate}'<\n>
+curl https://api.boot.dev/v1/courses_rest_api/learn-http/issues | jq '.[] | {title, estimate}'<\n> -o /tmp/issue_info.json
+curl https://api.boot.dev/v1/courses_rest_api/learn-http/issues -o /tmp/issue_info.txt | jq '.[] | {title, estimate}'<\n> 
+bootdev run bbbe7d5d-5eed-4ceb-884d-07f77ff735b7
+bootdev run bbbe7d5d-5eed-4ceb-884d-07f77ff735b7 -s
+curl -s https://api.boot.dev/v1/courses_rest_api/learn-http/issues | jq -r '.[] | .title' > /tmp/issue_info.txt && curl -s https://api.boot.dev/v1/courses_rest_api/learn-http/issues | jq -r '.[] | .estimate' >> /tmp/issue_info.txt<\n>
+curl -s https://api.boot.dev/v1/courses_rest_api/learn-http/issues | jq -r '.[] | .title' > /tmp/issue_info.txt; curl -s https://api.boot.dev/v1/courses_rest_api/learn-http/issues | jq -r '.[] | .estimate' >> /tmp/issue_info.txt<\n>
+curl -s https://api.boot.dev/v1/courses_rest_api/learn-http/issues | jq -r '.[] | .title' > /tmp/issue_info.txt<\n>curl -s https://api.boot.dev/v1/courses_rest_api/learn-http/issues | jq -r '.[] | .estimate' >> /tmp/issue_info.txt<\n>
+curl -s https://api.boot.dev/v1/courses_rest_api/learn-http/issues | jq -r '.[] | .title' > /tmp/issue_info.txt
+curl -s https://api.boot.dev/v1/courses_rest_api/learn-http/issues | jq -r '.[] | .title' >> /tmp/issue_info.txt
+curl -s https://api.boot.dev/v1/courses_rest_api/learn-http/issues | jq -r '.[] | .title' > /tmp/issue_info.txt
+mkdir /tmp/issue_info.txt
+bootdev run bbbe7d5d-5eed-4ceb-884d-07f77ff735b7 -s
+rm -r /tmp/issue_info.txt
+curl -s https://api.boot.dev/v1/courses_rest_api/learn-http/issues | jq -r '.[] | .title' > /tmp/issue_info.txt<\n>curl -s https://api.boot.dev/v1/courses_rest_api/learn-http/issues | jq -r '.[] | .estimate' >> /tmp/issue_info.txt<\n>
+mkdir /tmp/issue_info.txt
+curl -s https://api.boot.dev/v1/courses_rest_api/learn-http/issues | jq -r '.[] | .title' > /tmp/issue_info.txt<\n>curl -s https://api.boot.dev/v1/courses_rest_api/learn-http/issues | jq -r '.[] | .estimate' >> /tmp/issue_info.txt<\n>
+ls
+ls /tmp
+curl -s https://api.boot.dev/v1/courses_rest_api/learn-http/issues | jq -r '.[] | .title' > /tmp/issue_info.txt
+curl -s https://api.boot.dev/v1/courses_rest_api/learn-http/issues | jq '.[].title' > /tmp/issue_info.txt
+curl https://api.boot.dev/v1/courses_rest_api/learn-http/issues | jq '.[].title' > /tmp/issue_info.txt
+curl https://api.boot.dev/v1/courses_rest_api/learn-http/issues <\n>  | from json <\n>  | get title <\n>  | save --force /tmp/issue_info.txt<\n>
+rm -r /tmp/issue_info.txt
+curl https://api.boot.dev/v1/courses_rest_api/learn-http/issues <\n>  | from json <\n>  | get title <\n>  | save --force /tmp/issue_info.txt<\n>
+curl https://api.boot.dev/v1/courses_rest_api/learn-http/issues <\n>  | from json <\n>  | get estimate <\n>  | save --append /tmp/issue_info.txt<\n>
+bootdev run bbbe7d5d-5eed-4ceb-884d-07f77ff735b7 -s
+bootdev run dff17f87-1ce8-43ce-a43b-2cb611ce76f1 -s
+go mod init github.com/federicoReghini/pokedexGo
+ls
+mkdir pokedex
+cd pokedex
+go mod init github.com/federicoReghini/pokedexGo
+vim
+touch main.go
+cd pokedex
+go build
+cd ..
+vim main.go
+cd ..
+rm -rf pokedex
+mkdir pokedexcli
+cd pokedex
+cd pokedexcli
+go mod init github.com/federicoReghini/pokedexcli
+touch main.go
+vim main.go
+go build
+./pokedexcli
+cd pokedex
+clear
+bootdev run 6c884808-f220-4d1b-9520-288ef266859d -s
+clear
+npm run build
+cd ..
+clear
+cd apps/my-clienteling
+cd packages/ui
+cd packages/cli
+vim
+cd apps/my-clienteling
+npm run build
+clear
+go test ./
+vim
+cd retail
+vim
+cd apps/my-clienteling
+bootdev run d062dd5f-2f28-41cc-8436-ed896d5ef137
+bootdev run d062dd5f-2f28-41cc-8436-ed896d5ef137 -s
+npm run build
+clear
+npm run start
+clear
+vim
+clear
+vim
+nvim --version
+clear
+cd ebsn
+clear
+npm run build
+cd lib
+npm publish
+clear
+vim
+cd retail
+npm i
+vi
+git stash
+clear
+gitc
+gf
+gp
+git stash branch feature/gauge
+clear
+npm run start
+clear
+npm run update
+clear
+vim
+gitc
+git merge feature/gauge
+git push
+clear
+cd nvim
+vim
+clear
