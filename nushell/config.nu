@@ -1027,11 +1027,20 @@ alias pip-upgrade = pip list --outdated --format=json | from json | each { |it| 
 # -- Custom Git Commands --
 
 #  Show and delete git branch with fzf
-def gitc [] {
+def gits [] {
     let branch = (git branch | fzf| into string | str trim)
     if $branch != null {
-      git checkout $branch
+      git switch $branch
     }
+}
+
+def gitS [branch_name] {
+  git switch -c $branch_name
+}
+
+# Show log with oneline, decorate, graph and parents commits
+def gitlF [] {
+  git log --oneline --decorate --graph --parents
 }
 
 # Show and delete git branch with fzf
@@ -1048,6 +1057,17 @@ def gitD [] {
             git branch -D $branch
     }
 }
+
+# Start Postgres without brew services
+def pgstart [] {
+
+/opt/homebrew/opt/postgresql@15/bin/pg_ctl -D /opt/homebrew/var/postgresql@15 start
+}
+
+# Stop Postgres without brew services
+def pgstop [] {
+/opt/homebrew/opt/postgresql@15/bin/pg_ctl -D /opt/homebrew/var/postgresql@15 stop
+} 
 
 
 
@@ -1087,6 +1107,7 @@ $env.PATH = ($env.PATH
 )
 
 
+$env.PATH = ($env.PATH | prepend "/opt/homebrew/opt/postgresql@15/bin")
 $env.PATH = ($env.PATH | prepend "/opt/homebrew/bin")
 
 $env.__zoxide_hooked = true
@@ -1095,6 +1116,7 @@ $env.__zoxide_hooked = true
 # Go Environment Setup
 $env.PATH = ($env.PATH | append "/usr/local/go/bin")
 $env.PATH = ([$env.PATH, ($env.HOME | path join "go/bin")] | flatten)
+
 source ~/.config/nushell//env.nu
 source ~/.zoxide.nu
 source ~/.cache/carapace/init.nu

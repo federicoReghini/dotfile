@@ -10875,3 +10875,1526 @@ clear
 cd nvim
 vim
 clear
+vim
+clear
+go run .
+go run . | tee repl.log
+go run . | save repl.log
+bootdev run 2d4ed658-b546-4bf1-b569-57e5e321c1ef
+bootdev run 2d4ed658-b546-4bf1-b569-57e5e321c1ef -s
+clear
+go run ,
+go run .
+bootdev run 7d7ba7b9-f840-49e5-8767-42007b0a104f
+go run .
+bootdev run 7d7ba7b9-f840-49e5-8767-42007b0a104f
+bootdev run 7d7ba7b9-f840-49e5-8767-42007b0a104f -s
+go run .
+bootdev run 7d7ba7b9-f840-49e5-8767-42007b0a104f
+bootdev run 7d7ba7b9-f840-49e5-8767-42007b0a104f -s
+gf
+gitc
+gp
+npm run start
+go run .
+bootdev run 813eafe1-2e1d-42a0-b358-53e0f4d4fdc8
+bootdev run 813eafe1-2e1d-42a0-b358-53e0f4d4fdc8 -s
+mkdir internal
+mkdir internal/pokecache/cache.go
+ls
+go run .
+go test ./internal/pokecache
+bootdev run f2ba2b87-38fe-467c-abd7-14716f955169
+bootdev run f2ba2b87-38fe-467c-abd7-14716f955169 -s
+gitc
+clear
+npm run build
+clear
+clear
+vim
+npm i
+vim
+npm run build
+clear
+nvim
+npm run build
+npx turbo clean
+rm -rf node_modules package-lock.json 
+npm i
+clear
+vim
+npm run build
+vim
+npx turbo clean
+rm -rf node_modules package-lock.json 
+npm i
+npm run build
+clear
+clear
+npx expo-dol
+clear
+npx expo-doctor
+npm why @expo/config-plugins
+vim
+npx turbo clean
+rm -rf node_modules package-lock.json 
+npm i
+npx expo-doctor
+vim
+npx expo install --check
+npx expo-doctor
+npm why @expo/config-plugins
+vim
+npx turbo clean
+rm -rf node_modules package-lock.json 
+npm i
+clear
+npm i -g eas-cli
+clear
+npm run build
+clear
+go run .
+npx turbo clean
+rm -rf node_modules package-lock.json 
+clear
+npm i
+clear
+vim
+npm run build
+npm run start
+clear
+vim
+npx turbo clean
+rm -rf node_modules package-lock.json 
+vim
+npm i
+npm ci
+npm ci
+npm run start
+clear
+npm run start
+npm run build
+clear
+vim
+bootdev run e53abbb4-5d8a-4feb-ba08-828f03311e51 -s
+go run .
+bootdev run e53abbb4-5d8a-4feb-ba08-828f03311e51 -s
+npm run start
+touch test.js
+vim test.js
+node test.js
+vim
+clear
+go run .
+clar
+clear
+bootdev run ed962683-cb2d-4989-99e9-5cfa144810b5
+bootdev run ed962683-cb2d-4989-99e9-5cfa144810b5 -s
+go run .
+bootdev run ed962683-cb2d-4989-99e9-5cfa144810b5 -s
+clear
+go run .
+clear
+go run .
+clear
+go run .
+clear
+git init
+git remote add origin git@github.com:federicoReghini/pokedexcli.git
+git config user.name "federicoReghini"
+git config user.email "federicoreghini@gmail.com"
+git commit --amend --author="federicoreghini@gmail.com"
+git commit --amend --author="federicoReghinifedericoreghini@gmail.com"
+git commit --amend --author="federicoReghini federicoreghini@gmail.com"
+git commit --amend --author="federicoReghini <federicoreghini@gmail.coam>"
+git push
+git push --force
+clear
+gf
+gitc
+gp
+clear
+tmux attach -t work
+clear
+clear
+clear
+vim
+clera
+vim
+gitc
+clear
+vim
+cd ~/.ssh
+ls
+vim
+clerar
+clear
+vim
+gf
+git pull master
+git pull origin master
+vim
+git pull
+git push
+clear
+vim
+clear
+vim config
+cd apps/my-clienteling
+npm run start
+clear
+vim
+vim
+gf
+clear
+git pull
+npm run start
+clear
+gf
+clear
+gp
+cleawr
+clear
+vim
+npm list @typescript-eslint/eslint-plugin @typescript-eslint/parser
+npm install @typescript-eslint/eslint-plugin@^8.38.0 @typescript-eslint/parser@^8.38.0 --workspaces
+vim
+vim
+npm install --save-dev @typescript-eslint/parser @typescript-eslint/eslint-plugin
+vi 
+gf
+clear
+gitc
+gp
+clear
+gf
+gp
+cd packages/ui
+npm run start
+tmux attach -t work
+clear
+vim
+gitc
+gf
+gp
+clear
+gf
+npm run start
+cd retail
+npm i
+cd apps/my-clienteling
+cd retail
+npx turbo clean
+rm -rf node_modules package-lock.json 
+npm i
+clear
+npm run start
+gf
+gp
+vim
+vim
+clear
+cd ..
+npm run build
+cd lib
+npm publish
+npm i
+npm run s
+cd ..
+npm run build
+cd lib
+npm publish
+npm run start
+cd ..
+npm run build
+cd lib
+npm publish
+npm i
+npm run start
+cd apps/my-clienteling/node_modules/@project-fe-gpa/ebsn-front-services/services/hashtagServices/hastagServices.js
+cd retail
+cd apps/my-clienteling/node_modules/@project-fe-gpa/ebsn-front-services/services/hashtagServices/hastagServices.js
+cd clienteling
+clear
+cd ..
+npm run build
+cd lib
+npm publish
+clear
+vim
+npx turbo clean
+npm run start
+rm -rf node_modules package-lock.json 
+npm i
+vim
+npm i
+vim
+clear
+gf
+vim
+clear
+vim
+gitc
+git checkout feature/522-edit-hashtags
+npm run start
+git checkout -b feature/522-rendering-solution
+vim
+bootdev run 65e6780d-fdde-447a-9898-b30b73793a3a -s
+cd ..
+clear
+cd ..
+bootdev run 65e6780d-fdde-447a-9898-b30b73793a3a -s
+clear
+bootdev run 0552b1c3-49d9-4d4b-b44d-e91188a79c92 -s
+clear
+man git
+git config --global init.defaultBranch master
+cat ~/.gitconfig
+git config --global user.email "federicoreghini@gmail.com"
+git config --global user.name "federicoReghini"
+cat ~/.gitconfig
+clear
+bootdev run 69fb8a76-9456-47e2-9804-05466614882e -s
+clear
+cd ..
+mkdir webflyx
+cd webflyx
+git init
+bootdev run fda2c302-cb1e-4ed1-910c-609d85d33e4a -s
+clear
+touch contents.md
+echo "# contents" > countents.md
+cat contents.md
+vim
+"# contents" | save contents.md
+"# contents" | save --append contents.md
+cat contents.md
+git status
+bootdev run f330368c-734c-4708-971b-2ad33b4b7f52 -s
+git add contents.md
+git status
+bootdev run 10bf6614-7c0e-4710-9c84-4fee200d63e4 -s
+git commit -m "A: add contents.md"
+bootdev run 321d7b2d-60b8-433c-9123-210bbf49c758 -s
+git log
+git --no-pager log -n 10
+bootdev run 865b32b2-1493-48aa-b32e-a1e7418bc609 -s
+vim
+xxd contents.md
+git log -n 10
+ls -al
+cd .git/objects
+ls -al
+cd b5
+ls -al
+cat 5b19dcac7f2c52df828f9128a70d8fc59f9f84
+xxd 5b19dcac7f2c52df828f9128a70d8fc59f9f84
+xxd 5b19dcac7f2c52df828f9128a70d8fc59f9f84 | save /tmp/commit_object_hex.txt
+ls
+vim
+cd webflyx
+vim
+bootdev run 4efdf7b5-dd51-40ea-99e3-4e221e24bd0f -s
+clear
+cd b5
+ls -al
+git cat-file 5b19dcac7f2c52df828f9128a70d8fc59f9f84
+git cat-file -p 5b19dcac7f2c52df828f9128a70d8fc59f9f84
+git cat-file 5b19dcac7f2c52df828f9128a70d8fc59f9f84
+cd webflyx
+git cat-file 5b19dcac7f2c52df828f9128a70d8fc59f9f84
+git cat-file -p 5b19dcac7f2c52df828f9128a70d8fc59f9f84
+git log -1
+git cat-file -p b55b19dcac7f2c52df828f9128a70d8fc59f9f84
+git cat-file -p b55b19dcac7f2c52df828f9128a70d8fc59f9f84 | save /tmp/catfileout.txt
+bootdev run 7affbcbd-1455-43f3-868a-b10662921a91 -s
+git log -1
+git cat-file -p e0bf8212d8e6e1005d5ec2880088b3fa7879b660
+git cat-file -p 0b2b966842607e2dbd949b2b612f10546b9b1a1e
+git cat-file -p 0b2b966842607e2dbd949b2b612f10546b9b1a1e | save /tmp/blobfile.txt
+bootdev run ce822188-75cf-4c5a-92b9-17b2878ac9f1 -s
+touch titles.md
+"# Titles<\n><\n>- A River Runs Through It<\n>- Fight Club<\n>- 12 Years a Slave<\n>- The Big Short<\n>- 12 Monkeys" | save --append titles.md
+cat titles.md
+git add titles.md
+git commit -m "B: add titles"
+git log -1
+git cat-file -p a8e4d8c8d0eeae51ab139a883d58f00705f73aac
+bootdev run 71127960-79af-452d-a732-0c44908ca7bf -s
+git cat-file -p 1861cffc30a7dde857071a32d89e5bc32c66ca88
+git cat-file -p 85773695c3bd42368741850a7f34f1640af5a18c
+mkdir quotes
+touch quotes/starwars.md
+touch quotes/dune.md
+git status
+clear
+vim
+clear
+git add .
+git commit -m "C: add quotes"
+git cat-file -p 85773695c3bd42368741850a7f34f1640af5a18c
+git cat-file -p 1861cffc30a7dde857071a32d89e5bc32c66ca88
+bootdev run 1e2eb318-2a6f-44a0-bc93-e9cdd9510ebe -s
+git config --add webflyx.ceo "ThePrimeagen"
+git config --add webflyx.cto "TheLaneagen"
+git config --add webflyx.valutation "mid"
+git config --list --local
+bootdev run 8c3b66a7-a454-480b-a0db-9cd34a721cef -s
+git config list
+git config --add webflyx.valuation "mid"
+bootdev run 8c3b66a7-a454-480b-a0db-9cd34a721cef -s
+git config --get webflyx.valuation
+bootdev run ea9fe1c9-5284-4aae-95eb-1c6a834aa7c1 -s
+git config --unset webflyx.cto
+git config list
+git config --unset webflyx.valutation
+git config --unset webflyx
+git config --add webflyx.ceo "Warren"<\n>git config --add webflyx.ceo "Carson"<\n>git config --add webflyx.ceo "Sarah"
+git config list
+git config --unset-all webflyx.ceo
+bootdev run 9473bfc6-37ac-4644-ab55-76e8d88d8a27 -s
+git config --remove-section webflyx
+git config list
+bootdev run c2b04b80-e061-4305-96e4-33a1f6e4d959 -s
+git branch
+bootdev run 8b4b9cd5-af15-4d71-b790-299fd2150a93 -s
+git config --global list
+git config --list --global
+git config --add --global init.defaltbranch "main"
+git config --list --global
+git config --add --global init.defaultbranch "main"
+git config --list --global
+git config --unset-all init.defaltbranch
+git config --list --global
+git config --unset-all --global init.defaltbranch
+git config --list --global
+git config --unset-all --global init.defaultbranch
+git config --list --global
+git config --add --global init.defaultbranch "main"
+git config --list --global
+git branch
+git branch -m master main
+bootdev run 34d03c25-be7c-4f27-84a4-2c98f2a752ed -s
+git switch -c add_classics
+git branch
+bootdev run 02f31255-f521-4317-946a-a8a9ca67e7cf -s
+git switch main
+git branch
+git switch add_classics
+bootdev run 7b1f541b-a333-4ac0-8317-8165530c0998 -s
+clear
+vim
+cd ..
+vim
+source ~/.config/nushell/config.nu
+gits
+touch classics.csv
+"title, director, year<\n>One Crazy Summer, Savage Steve Holland, 1986<\n>The Princess Bride, Rob Reiner, 1987<\n>The Goonies, Richard Donner, 1985<\n>The Breakfast Club, John Hughes, 1985<\n>Monty Python and the Holy Grail, Terry Gilliam, 1975" | save --append classics.csv
+git add .
+git commit -m "D: classics.csv file added"
+git log
+bootdev run da54c8cb-2b06-45ab-b8bb-157bc2446432 -s
+git log --oneline
+git log --oneline --decoration=full
+git log --oneline --decoration full
+git log --oneline --decorate full
+git log --oneline --decorate=full
+bootdev run 4c6ecd20-8510-4b37-918a-763fbade5e05 -s
+vim
+cat .git/refs/heads/main
+find .git/refs/heads/main
+find .git/refs/heads/main/0e96b168568b7adf11af4aac8988c0df3c7fb92a
+clear
+gf
+clear
+vim
+clear
+gits
+source ~/.config/nushell/config.nu
+gits
+gits
+vim
+touch test.js
+cd webflyx
+node test.js
+node test
+node text.js
+clear
+node text.js
+vim text.js
+rm text.js
+ls
+rm -rf test.js
+clera
+clear
+cleear
+clear
+"# contents<\n><\n>- titles.md: The movie titles in the WebFlyx collection<\n>- classics.csv: A comma-separated list of classic movies<\n>- quotes: A directory of files containing memorable quotes from movies" | save --force contents.md
+cat contents.md
+git add .
+git commit -m "E: new contents"
+git log --oneline --graph --all
+git log --oneline --graph docs
+git log --oneline --graph 
+git log --oneline --all 
+git log --oneline --graph 
+git log --oneline --graph --all
+bootdev run 5a03b470-0ae5-45be-83e2-dd548497214f -s
+git merge add_classics
+git log --oneline --decorate --graph --parents
+bootdev run 41af0d0d-9805-4dd0-b7f8-6526a6d42ec8 -s
+gitd
+git switch -c update_titles
+source ~/.config/nushell/config.nu
+gitS
+gitS testing
+gitd
+gits
+gitd
+clear
+gits
+ls
+cat titles.md
+"- The Curious Case of Benjamin Button" | save --append titles.md
+cat titles.md
+vim titles.md
+clear
+git log --oneline
+git add .
+git commit -m "G: new title"
+git log --oneline
+bootdev run 9e41bec4-ca71-41a0-bcbd-9cdb5a08867c -s
+gits
+git merge update_titles
+gitlF
+gitd
+bootdev run e15fb7d6-7bbb-4185-bd12-f46613207d1c -s
+git log --oneline
+git switch -c update_dune 688db41
+gitlF
+git log --oneline -n 1
+bootdev run 079797b4-66f7-4b95-a5fd-a1163dba32d9 -s
+cat quotes/dune.md
+vim quotes/dune.md
+git add .
+git commit -m "H: new quote on dune"
+vim quotes/dune.md
+git add .
+git commit -m "I: new quote on dune part 2"
+git rebase main
+git log --oneline 
+bootdev run 64c4ccc9-1f14-4b70-83fc-829d91efe335 -s
+"* The Internship" | save --force titles.md
+cat titles.md
+gti add .
+git add .
+git commit -m "J: override"
+bootdev run bb5f3005-894f-4d2f-80d1-75f4f143dd0d -s
+git log
+git log --oneline 
+git reset --soft 77579d9
+git log --oneline 
+bootdev run cc5ecbd6-a740-408a-9b69-5fe961aef13e -s
+git reset --hard 77579d9
+cat titles.md
+bootdev run eb5c6d9f-6203-4174-8e32-e261a707d7fe -s
+cd ..
+mkdir webflyx-local
+ls
+cd webflyx-local
+git init
+bootdev run 0443e68c-dc97-4eda-bcac-a44578c9eb68 -s
+git remote add origin ../webflyx
+bootdev run ad1ac5e6-8ce7-4fc8-b603-6a359ba9c715 -s
+find .git/objects
+ls .git/objects
+bootdev run 26a9aebe-7e7b-4ad7-9de1-1e8bda7b1296 -s
+git fetch
+ls .git/objects
+bootdev run 874bc151-49f5-4e84-b7b4-a20d4260871d -s
+git log
+bootdev run d8b81b4d-9341-46e9-b452-6673b07e36d1 -s
+git log origin/update_dune --oneline
+bootdev run 1f90b5ff-af72-4dd8-a32f-9d3c73ecd218 -s
+git merge origin/main
+git log
+git log --oneline 
+bootdev run eb6e6c58-4948-4438-af6e-daff6eaa10e7 -s
+vim .git
+cd ..
+cd webflyx-
+cd webflyx
+vim .git
+git config
+git config list
+clear
+gh whoami
+gh auth login
+cd ..
+rm -rf webflyx-local
+ls
+cd webflyx
+clera
+clear
+git remote add origin git@github.com-personal:federicoReghini/webflyx.git
+git ls-remote
+bootdev run c465d09d-b53a-4276-978c-cc2c9f4e02ad -s
+git push origin main
+gits
+git config list
+git merge update_dune
+git pull origin main
+git log --oneline 
+gitd
+bootdev run 68fb19fe-ef3d-4d11-ad8a-3d009cc64319 -s
+gitS add_classics
+vim classics.csv
+git add .
+git commit -m "L: new classic"
+git push origin add_classics
+vim
+git config --global pull.rebase true
+gits
+git pull
+git pull origin main
+git config list
+gitd
+clear
+bootdev run b9bb7c2e-793a-4c9a-bc43-ca21556a4b6f -s
+mkdir secure
+touch secure/passwords.txt
+"root: 12345<\n>admin: 54321<\n>lane: 00000<\n>prime: APICJJY$$PO!NJ@L" | save --append secure/passwords.txt
+cat secure/passwords/txt
+cat secure/passwords.txt
+touch guilty_pleasures.md
+"# Guilty Pleasures (tell no one)<\n><\n>- The Notebook<\n>- The Love Guru<\n>- Birdemic: Shock and Terror<\n>- Troll 2<\n>- Manos: The Hands of Fate<\n>- Sharknado" | save --append guilty_pleasures.md
+touch .gitignore
+"secure<\n>guilty_pleasures.md" | save --append .gitignore
+cat .gitignore
+git add .
+git commit -m "M: ignore"
+bootdev run 130bca89-8624-402c-a522-327e5c497159 -s
+brew install pandoc
+pandoc -g
+pandoc -h
+touch advert.md
+"# WebFlyx: The Future of Content<\n><\n>You thought you knew what the web was capable of. You were _wrong_. WebFlyx is taking the world of online entertainment to an entirely new level. Grab a copy of it at your local electronics store today!<\n><\n>**Available on Floppy Disk!**<\n><\n>_While supplies last._" | save --append advert.md
+cat advert.md
+pandoc advert.md -o advert.html
+open advert.html
+vim
+vim .gitignore
+vim
+clear
+git add .
+git commit -m "N: ignore part 2"
+bootdev run 03550ba5-9699-468f-aa60-67df8fa47b6f -s
+vim
+git rm --cached advert.html
+git log --oneline 
+git reset --soft f274168
+git log --oneline 
+git add .
+git commit -m "N: ignore part 2"
+git log --oneline 
+bootdev run 03550ba5-9699-468f-aa60-67df8fa47b6f -s
+bootdev run 14b7179b-ced3-4141-9fa5-e67dbc3e5242 -s
+cd ..
+cd golang
+ls
+mkdir ~/.gatorconfig.json
+touch ~/.gatorconfig.json
+vim ~/.gatorconfig.json
+rm -rf ~/.gatorconfig.json
+touch ~/.gatorconfig.json
+vim ~/.gatorconfig.json
+clear
+npm run start
+clear
+clear
+source ~/.config/nushell/config.nu
+clear
+clear
+ls
+go mod init github.com/federicoReghini/Blog-aggregator
+ls
+rm go.mod
+ls
+mkdir gator
+cd gator
+go mod init github.com/federicoReghini/Blog-aggregator
+clear
+cd gator
+clear
+touch main.go
+mkdir internal
+touch internal/config
+cd ..
+vim
+ls
+cd gator
+cd internal
+go mod init internal.com/federicoReghini/internal
+cd ../..
+vim
+vim main.go
+cd gator
+go run .
+cat ~/.gatorconfig.json
+go run .
+bootdev run 5e53c561-f059-49aa-b06c-5c5535fa6df0 -s
+clear
+git init
+git remote add origin git@github.com:federicoReghini/Blog-aggregator.git
+clear
+git add .
+git commit -m "First commit"
+git push origin main
+vim
+git push origin main
+clear
+vim
+cd ..
+vim
+gitc
+source ~/.config/nushell/config.nu
+gf
+gp
+clear
+vim
+cd gator
+go run .
+go run . login
+go run . login alice
+cat ~/.gatorconfig.json
+go run . login alice
+cat ~/.gatorconfig.json
+git add .
+clear
+bootdev run dca1352a-7600-4d1d-bfdf-f9d741282e55 -s
+clear
+clear
+gf
+clear
+vim
+brew install postgresql@15
+clear
+gitS feature/524
+git add .
+clear
+vim
+psql -hversion
+psql --version
+brew install postgresql@15
+psql --version
+clear
+psql --version
+brew info postgresql@15<\n>
+ls /opt/homebrew/opt/postgresql@15/bin/psql<\n>
+source ~/.config/nushell/config.nu
+psql --version
+source ~/.config/nushell/config.nu
+psql --version
+source ~/.config/nushell/config.nu
+psql --version
+vim
+source ~/.config/nushell/config.nu
+psql --version
+clear
+source ~/.config/nushell/config.nu
+psql --version
+brew services start postgressql@15
+brew services start postgresql@15
+brew tap homebrew/services<\n>
+brew services start postgresql@15
+source ~/.config/nushell/config.nu
+brew services start postgresql@15
+which brew
+brew services --version
+brew --version
+brew tap --version
+brew tap homebrew/services<\n>
+brew tap<\n>
+brew help services
+brew tap homebrew/services
+brew untap homebrew/services
+brew tap homebrew/services
+brew help services
+source ~/.config/nushell/config.nu
+brew help services
+brew  services
+brew services
+brew update
+brew services
+brew update-reset
+brew --version
+brew services
+brew doctor
+git -C "/opt/homebrew/Library/.homebrew-is-managed-by-nix" remote add origin https://github.com/Homebrew/brew<\n>
+clear
+pg_ctl -D "/opt/homebrew/var/postgresql@15" start<\n>
+/opt/homebrew/opt/postgresql@15/bin/pg_ctl -D /opt/homebrew/var/postgresql@15 start<\n>
+/opt/homebrew/opt/postgresql@15/bin/pg_ctl -D /opt/homebrew/var/postgresql@15 stop
+/opt/homebrew/opt/postgresql@15/bin/pg_ctl -D /opt/homebrew/var/postgresql@15 start<\n>
+psql postgres
+source ~/.config/nushell/config.nu
+psql postgres
+bootdev run 74bea1f2-19cd-4ea9-966e-e2ca9dd1dfa9 -s
+/opt/homebrew/opt/postgresql@15/bin/pg_ctl -D /opt/homebrew/var/postgresql@15 stop
+source ~/.config/nushell/config.nu
+pgstop
+pgstart
+pgstop
+clear
+bootdev run 74bea1f2-19cd-4ea9-966e-e2ca9dd1dfa9 -s
+go install github.com/pressly/goose/v3/cmd/goose@latest
+goose -v
+goose --version
+mkdir sql/schema
+touch sql/schema/001_users.sql
+vim
+pgstart
+psql "postgres://federicoreghini:@localhost:5432/gator"
+cd sql/schema
+goose postgres postgres://federicoreghini:@localhost:5432/gator up
+psql gator
+clear
+goose postgres postgres://federicoreghini:@localhost:5432/gator down
+psql gator
+clear
+cd ~/.gatorconfig
+cd ~/.gatorconfig.json
+clear
+cd 
+ls
+vim .gatorconfig.json
+cd gator
+c;ear
+clear
+cd .gatorconfig.json
+cd
+vim .gatorconfig.json
+cd gator
+bootdev run d049abb2-c733-4986-a33a-73f05e2ea06c -s
+git add .
+vim
+go install github.com/sqlc-dev/sqlc/cmd/sqlc@latest
+touch sqlc.yaml
+vim sqlc.yaml
+mkdir sql/queries
+touch sql/queries/users.sql
+clear
+sqlc --version
+sqlc version
+sqlc generate
+go get github.com/google/uuid
+sqlc generate
+go get github.com/lib/pq
+cd sql/schema
+goose postgres postgres://federicoreghini:@localhost:5432/gator up
+cd gator
+sqlc generate
+go run . register lane
+go run . register 
+go run . register lane
+pgstart
+pgstop
+pgstart
+sqlc generate
+go run . register lane
+cd
+vim .gatorconfig.json
+cd gator
+go run . register lane
+vim .gatorconfig.json
+cd 
+vim .gatorconfig.json
+cd gator
+:w
+clear
+psql postgres
+clear
+go run . login alice
+clear
+cd sql/schema
+goose postgres postgres://federicoreghini:@localhost:5432/gator down
+goose postgres postgres://federicoreghini:@localhost:5432/gator up
+bootdev run 8279802c-a867-4ba6-9d06-25625bc42544 -s
+cd gator
+bootdev run 8279802c-a867-4ba6-9d06-25625bc42544 -s
+git add .
+cd sql/schema
+sqlc generate
+cd gator
+sqlc generate
+clear
+go run . reset
+psql postgres
+clear
+bootdev run 6619ebf8-44ab-4a2b-a536-0b17d116c15e -s
+go install github.com/bootdotdev/bootdev@v1.20.1<\n>
+sqlc generate
+go run . users
+psql postgres
+go run . register lane
+go run . users
+go run . register kahya
+bootdev run 371be77c-711d-4072-8392-81732ed87512 -s
+go run . agg https://www.wagslane.dev/index.xml
+bootdev run 7347666d-7967-4c77-84c5-a0306bee8d05 -s
+go run . agg https://www.wagslane.dev/index.xml
+go run . agg 
+bootdev run 7347666d-7967-4c77-84c5-a0306bee8d05 -s
+go run . agg 
+bootdev run 7347666d-7967-4c77-84c5-a0306bee8d05 -s
+save sql/schema/002_feeds.sql
+vim
+cd sql/schema
+goose postgres postgres://federicoreghini:@localhost:5432/gator up
+cd gator
+psql postgres
+clear
+sqlc generate
+clear
+sqlc generate
+cd sql/schema
+goose postgres postgres://federicoreghini:@localhost:5432/gator down
+goose postgres postgres://federicoreghini:@localhost:5432/gator up
+cd gator
+sqlc generate
+psql postgres
+clear
+go run . addFeed
+go run . addFeed weg https://www.wagslane.dev/index.xml
+clear
+bootdev run f0126e90-414e-4a45-b6b6-758d59af012c -s
+go run . addfeed "Hacker News RSS" "https://hnrss.org/newest"
+go run . addfeed Hacker News RSS https://hnrss.org/newest
+go run . addfeed "Hacker News RSS" "https://hnrss.org/newest"
+go run . addFeed weg https://www.wagslane.dev/index.xml
+go run . addFeed "weg" "https://www.wagslane.dev/index.xml"
+go run . addFeed "weg test" "https://www.wagslane.dev/index.xml"
+go run . addFeed "Hacker RSSD" "https://www.wagslane.dev/index.xml"
+psql postgres
+go run . addFeed "Hacker RSSD" "https://www.wagslane.dev/index.xml"
+go run . addFeed "Hacker RSSD" "https://www.wagslane.dev/index.xl"
+psql postgres
+clear
+bootdev run f0126e90-414e-4a45-b6b6-758d59af012c -s
+go run . addfeed "Hacker News RSS" "https://hnrss.org/newest" 
+bootdev run f0126e90-414e-4a45-b6b6-758d59af012c -s
+go run . feeds
+psql postgres
+clear
+bootdev run 3c66635a-cf05-471e-8ad8-ff3a80a6b177 -s
+cd sql/schema
+goose postgres postgres://federicoreghini:@localhost:5432/gator down
+goose postgres postgres://federicoreghini:@localhost:5432/gator up
+cd gator
+sqlc generate
+cd sql/schema
+goose postgres postgres://federicoreghini:@localhost:5432/gator down
+goose postgres postgres://federicoreghini:@localhost:5432/gator up
+cd gator
+sqlc generate
+go run . feeds
+bootdev run 3c66635a-cf05-471e-8ad8-ff3a80a6b177 -s
+go run . feeds
+cd sql/schema
+goose postgres postgres://federicoreghini:@localhost:5432/gator up
+goose postgres postgres://federicoreghini:@localhost:5432/gator down
+goose postgres postgres://federicoreghini:@localhost:5432/gator up
+cd gator
+psql postgres
+clear
+cd sql/schema
+goose postgres postgres://federicoreghini:@localhost:5432/gator down
+goose postgres postgres://federicoreghini:@localhost:5432/gator up
+cd gator
+sqlc generate
+cd sql/schema
+goose postgres postgres://federicoreghini:@localhost:5432/gator down
+goose postgres postgres://federicoreghini:@localhost:5432/gator up
+clear
+cd gator
+sqlc generate
+go run . follow "https://hnrss.org/newest"
+cd
+vim .gatorconfig.json
+cd gator
+:w
+psql postgres
+clear
+sqlc generate
+go run . following
+sqlc generate
+go run . following
+sqlc generate
+go run . following
+bootdev run a5f72e6a-6af3-4568-9eb7-079a3809a46c -s
+go run . addfeed "Hacker News RSS" "https://hnrss.org/newest"
+go run . reset
+psql postgres
+bootdev run a5f72e6a-6af3-4568-9eb7-079a3809a46c -s
+go run . register holgith 
+go run . reset
+go run . register holgith 
+go run . addfeed "Lanes Blog" "https://www.wagslane.dev/index.xml"
+clear
+sqlc generate
+bootdev run a5f72e6a-6af3-4568-9eb7-079a3809a46c -s
+go run . addfeed "Lanes Blog" "https://www.wagslane.dev/index.xml"
+go run . reset
+go run . addfeed "Lanes Blog" "https://www.wagslane.dev/index.xml"
+clear
+go run . register holgith
+go run . addfeed "Lanes Blog" "https://www.wagslane.dev/index.xml"
+git run l reset
+go run . reset
+go run . register holgith
+go run . addfeed "Lanes Blog" "https://www.wagslane.dev/index.xml"
+sqlc generate
+go run . addfeed "Lanes Blog" "https://www.wagslane.dev/index.xml"
+go run . reset
+bootdev run a5f72e6a-6af3-4568-9eb7-079a3809a46c -s
+go run . reset
+bootdev run a5f72e6a-6af3-4568-9eb7-079a3809a46c -s
+claer
+clear
+psql -U federicoreghini -d gator -c "TRUNCATE TABLE $(psql -U federicoreghini -d gator -t -c \"SELECT string_agg('\"' || tablename || '\"', ', ') FROM pg_tables WHERE schemaname = 'public'\") RESTART IDENTITY CASCADE;"<\n>
+let tables = (psql -U federicoreghini -d gator -t -A -c "SELECT string_agg('\"' || tablename || '\"', ',') FROM pg_tables WHERE schemaname='public'")<\n>psql -U federicoreghini -d gator -c $"TRUNCATE TABLE ($tables) RESTART IDENTITY CASCADE;"<\n>
+psql postgres
+bootdev run a5f72e6a-6af3-4568-9eb7-079a3809a46c -s
+clear
+bootdev run a5f72e6a-6af3-4568-9eb7-079a3809a46c -s
+let tables = (psql -U federicoreghini -d gator -t -A -c "SELECT string_agg('\"' || tablename || '\"', ',') FROM pg_tables WHERE schemaname='public'")<\n>psql -U federicoreghini -d gator -c $"TRUNCATE TABLE ($tables) RESTART IDENTITY CASCADE;"<\n>
+bootdev run a5f72e6a-6af3-4568-9eb7-079a3809a46c -s
+let tables = (psql -U federicoreghini -d gator -t -A -c "SELECT string_agg('\"' || tablename || '\"', ',') FROM pg_tables WHERE schemaname='public'")<\n>psql -U federicoreghini -d gator -c $"TRUNCATE TABLE ($tables) RESTART IDENTITY CASCADE;"<\n>
+psql postgres
+clear
+bootdev run a5f72e6a-6af3-4568-9eb7-079a3809a46c -s
+cd sql/schema
+goose postgres postgres://federicoreghini:@localhost:5432/gator down
+goose postgres postgres://federicoreghini:@localhost:5432/gator up
+goose postgres postgres://federicoreghini:@localhost:5432/gator down
+goose postgres postgres://federicoreghini:@localhost:5432/gator up
+goose postgres postgres://federicoreghini:@localhost:5432/gator down
+goose postgres postgres://federicoreghini:@localhost:5432/gator up
+goose postgres postgres://federicoreghini:@localhost:5432/gator down
+goose postgres postgres://federicoreghini:@localhost:5432/gator up
+goose -dir sql/schema postgres "your-connection-string" status
+cd gator
+goose -dir sql/schema postgres "your-connection-string" status
+cd
+vim .gatorconfig.json
+2025/08/16 20:15:12 goose run: no next version found<\n>clear
+goose -dir sql/schema postgres "postgres://federicoreghini:@localhost:5432/gator?sslmode=disable" status
+goose -dir sql/schema version
+goose -dir sql/schema postgres "postgres://federicoreghini:@localhost:5432/gator?sslmode=disable" version
+ls -la sql/schema/ | grep -E "\.sql$"
+clear
+cd sql/schema
+goose postgres "postgres://federicoreghini:@localhost:5432/gator" version
+goose postgres "postgres://federicoreghini:@localhost:5432/gator" status
+goose postgres "postgres://federicoreghini:@localhost:5432/gator" up
+goose
+goose version
+goose postgres "postgres://federicoreghini:@localhost:5432/gator" version
+goose postgres "postgres://federicoreghini:@localhost:5432/gator" --version
+goose postgres "postgres://federicoreghini:@localhost:5432/gator" status
+pgstop
+pgstart
+goose postgres "postgres://federicoreghini:@localhost:5432/gator" status
+goose postgres "postgres://federicoreghini:@localhost:5432/gator" version
+goose postgres "postgres://federicoreghini:@localhost:5432/gator" up
+psql postgres
+cd gator
+cd sql/schema
+goose postgres "postgres://federicoreghini:@localhost:5432/gator" up
+clear
+goose postgres "postgres://federicoreghini:@localhost:5432/gator" up
+clear
+cd gator
+sqlc generate
+clear
+vim
+vim
+cd nvim
+vim
+sqlc generate
+bootdev run a5f72e6a-6af3-4568-9eb7-079a3809a46c -s
+bootdev run dbc877bf-a777-416e-ac07-f6ca9559f48c -s
+sqlc generate
+bootdev run b1eb06af-f46e-40c1-a64f-836248122bb0 -s
+:qa
+cd ..
+ls
+cd ..
+ls
+cd webflyx
+clear
+bootdev run 741621f9-90a8-4fb6-92f0-db577628563d -s
+cd ..
+git clone git@github.com-personal:federico-reghini-eng/megacorp.git
+cd megacorp
+vim
+bootdev run b7439eef-e733-4a11-9cd9-68d7526c071a -s
+git config --local rerere.enabled false
+rm -rf .git/rr-cache
+bootdev run c45435f3-5649-4cbe-8d8f-0a4361bc7a08 -s
+gitS add_contrib
+cd ..
+rm -rf megacorp
+git clone git@github.com-personal:federicoReghini/megacorp.git
+cd megacorp
+gitS add_contrib
+touch federicoReghini.txt
+"https://github.com/federicoReghini" | save --append federicoReghini.txt
+cat federicoReghini.txt
+git add .
+git commit -m "add myself as a contributor"
+git push
+git push -u origin add_contrib
+gits
+gitd
+clear
+cat .git/HEAD
+bootdev run a42f300a-1a89-4ecc-b8f1-39ee88b0a17d -s
+git reflog
+gitS slander
+git reflog
+touch slander.md
+"# Breaking News<\n><\n>MegaCorp CEO Lane enjoyed the live-action Last Airbender movie<\n>MegaCorp CTO ThePrimeagen is a fan of The Notebook (and most other Nicholas Sparks content)"| save --append slander.md
+git commit -m "B: slander"<\n>
+git add .
+git commit -m "B: slander"<\n>
+git reflog
+bootdev run 015e56de-861b-4694-931d-d6fce619fe37 -s
+gits
+gitd
+gits
+gitD
+bootdev run 4f9601a7-4365-4dbc-99c4-fd8260b97312 -s
+git reflog
+git cat-file -p 59eec14
+git cat-file -p 99245ffb16c7eed0de312152ef4285189ec9919b
+git cat-file -p a091da2ef20c5a1c59453a8048c6f7023167aa6b
+touch slander.md
+"# Breaking News<\n><\n>MegaCorp CEO Lane enjoyed the live-action Last Airbender movie<\n>MegaCorp CTO ThePrimeagen is a fan of The Notebook (and most other Nicholas Sparks content)"| save --append slander.md
+git add .
+git commit -m "B: recovery"<\n>
+git push
+bootdev run 3dff7de9-0a17-4242-9787-f4d64ae05d0b -s
+gitS add_customers
+vim
+git add .
+git commit -m "C: added orgs and customers"<\n>
+gits
+vim
+git add .
+git commit -m "D: add jayson to customers"
+bootdev run 92ea654a-3112-4649-a46e-e06bb38ec709 -s
+git push
+gits
+git merge main
+git status
+bootdev run 9973d6bd-37d9-49a2-8529-ab59adec9d1d -s
+vin
+vim
+bootdev run e37ed7bf-cddb-4092-a617-220ab0e1fea6 -s
+git add .
+git commit -m "E: resolve conflict with stupid Greg's customer"
+git log
+git log --oneline 
+bootdev run fbdb042c-4652-4413-b0e9-0083976eb8c4 -s
+gir reset --hard
+git reset --hard
+git log --oneline 
+git reset faa685c
+git log --oneline 
+bootdev run 4f043687-ce97-4c5e-9e28-f6d7c7a8df4b -s
+git merge main
+vim
+git log --oneline 
+vim
+clear
+git merge main
+vim
+git add .
+git commit -m "E: fine, Greg can have this one."
+bootdev run 9d1f10a1-8810-437e-b828-6b60e2dd83da -s
+gits
+git merge add_customers
+gitd
+git log --oneline 
+gitlF
+bootdev run b43c7b1d-a333-4b58-b677-d6d3459ecc43 -s
+gitS delete_records
+vim
+git add .
+git commit -m "G: changed partners"
+bootdev run 27b1273d-1326-4314-8d50-c57d3b78526b -s
+git log
+git log --oneline 
+git reset 388bb73
+git log --oneline 
+git reset --soft 388bb73
+git reset --soft e569ccb
+vim
+git add .
+git commit -m "F: removed records"
+gits
+vim
+git add .
+git commit -m "G: changed partners"
+bootdev run 27b1273d-1326-4314-8d50-c57d3b78526b -s
+git merge delete_records
+git checkout --theirs customers/all.csv
+git checkout --ours orgs/partners.txt
+git add .
+git commit -m "H: merge delete_records"
+gitd
+bootdev run 16379aaa-64a1-49bb-8ad2-acc33fac1761 -s
+gitS banned
+"first_name,last_name,company,title<\n>Kayha,tbd,TheMarchOfTime,sidekick<\n>sam,ctrlman,closedai,ceo" | save customers/banner.txt
+vin
+vim
+git add .
+git commit -m "I: create banned.tct file"
+git commit --amend
+git lo
+git log --oneline 
+gits
+"first_name,last_name,company,title<\n>Ballan,Agrandian,Boots.lore,Protagonist<\n>sam,ctrlman,closedai,ceo" | save customers/banned.txt
+"first_name,last_name,company,title<\n>Ballan,Agrandian,Boots.lore,Protagonist<\n>sam,ctrlman,closedai,ceo" | save customers/banned.csv
+vim
+git add .
+git commit -m "J: create banned.csv"
+gits
+git log --oneline 
+git reset --hard dd6641a
+git log --oneline 
+"first_name,last_name,company,title<\n>Kayha,tbd,TheMarchOfTime,sidekick<\n>sam,ctrlman,closedai,ceo" | save customers/banned.csv
+git add .
+git commit -m "I: create banned.csv file"
+gits
+bootdev run c2d1622b-1891-4280-aa7d-44acc1ac71a4 -s
+giits
+gits
+git rebase main
+git log --oneline --all
+git branch
+bootdev run 7654a0e4-96c0-4ba5-846d-3015e55f7d04 -s
+vim
+git checkout --ours customers/partners.csv
+vim
+git checkout --ours customers/banned.csv
+git add .
+git rebase --continue
+git log --oneline 
+bootdev run 2c292dd2-8ae9-40a7-8697-b4b141a1fed2 -s
+gits
+gitd
+bootdev run ff370fac-aab9-4be9-b04a-1d1cfe9013c6 -s
+gitS favs
+"# Favorite Customers<\n>* Walter White, Heisenberg, Chemist" | save customers/favs.md
+git add .
+git commit -m "K: add favs.md"
+gitS favs2
+gits
+"# Favorite Customers<\n>* Jesse Pinkman, Heisenberg's Assistant" | save customers/favs.md
+git add .
+git commit -m "L: add favs.md"
+bootdev run 6a1c20a0-31cc-4a74-8d88-8cb347a8c930 -s
+git config --local rerere.enabled true
+gits
+git rebase main
+vim
+git add .
+git rebase --continue
+gits
+git rebase main
+gti add .
+git add .
+git rebase --continue
+bootdev run cf3f0957-04e1-41cf-8c96-d380b9f6a9ad -s
+gits
+gitD
+git merge favs
+gitd
+bootdev run 6cc8524b-27e5-4c5a-aea4-b6fedff3d6f3 -s
+git push
+gitS temp_main
+bootdev run f4dcf2a4-6bf9-49bf-9527-49a08d9e6a5a -s
+git rebase -i HEAD~3
+bootdev run b1245477-a09f-4c6b-87cc-ebf45780fcf8 -s
+git log --oneline 
+gitd
+gits
+git branch -m temp_main main
+gits
+bootdev run b4080c32-7c5e-4c48-ba0f-b5fbdbe994be -s
+git push origin main --force
+bootdev run 0bf9e947-1e83-43b3-a7fd-322a7c6caf04 -s
+gitS add_scanner
+vim
+./scripts/scan.sh
+git add .
+git commit -m "K: scanned"
+vim
+./scripts/scan.sh
+git add .
+git commit -m "L: scanned"
+vim
+./scripts/scan.sh
+git add .
+git commit -m "M: scanned"
+bootdev run df75d8a8-f665-455a-b4b0-b0404c775f25 -s
+git push
+vim
+git rebase -i HEAD~3
+bootdev run 1b6fc7a9-40f5-4180-9fe2-9bcd4747b024 -s
+git push --force
+clear
+gits
+gitd
+git pull
+git log --oneline 
+git pull origin main
+git log --oneline 
+bootdev run f4b8e9f8-d31a-4920-9eb8-a09c8942f746 -s
+vim
+git stash
+git stash list
+bootdev run 9b640625-47b2-4cf1-b2ec-5ed860d96cf0 -s
+git stash pop
+bootdev run 70036e73-63a8-49eb-ab2a-280702d4aa56 -s
+git stash -m "good marketing"
+vim
+git stash -m "bad marketing"
+git stash list
+bootdev run 87a2cbb8-a1ba-47fb-a730-bee777a000ad -s
+./scripts/apux.sh ./scripts/scan.sh | grep ' sh'
+vim
+./scripts/apux.sh ./scripts/scan.sh | grep ' apux'
+git add .
+git commit -m "L: apux"
+bootdev run 36a71535-6f5f-4b96-8b3e-b3cac8f8c302 -s
+git stash list
+git stash apply stash@{1}
+git add .
+git stash drop stash@{1}
+git stash list
+git stash pop
+vim
+git add .
+git commit -m "M: apux"
+bootdev run 255d529d-d150-48fe-b2d5-cd2552b31e19 -s
+vim
+git log --oneline 
+git reset --soft ee816d9
+vim
+git add .
+git commit -m "M: apux"
+bootdev run 255d529d-d150-48fe-b2d5-cd2552b31e19 -s
+git log --oneline 
+git revert a84fb5d
+bootdev run 4739f014-45dc-4de6-ab9d-4f04e326e606 -s
+git diff
+git log --oneline 
+git diff 1a7650d a84fb5d
+gits
+gitS add_partners
+vim
+git add .
+git commit -m "O: partners"
+vim
+git add .
+git commit -m "P: partners"
+git stash drop
+bootdev run 5a52d245-b1c1-4724-9552-50e49f1d22da -s
+git log --oneline 
+gits
+git log 2 --oneline 
+git log -n 2 --oneline 
+git log --oneline 
+gits
+git log --oneline -n 2
+gits
+git cherry-pick 28cdeb6
+git log --oneline 
+gitd
+gits
+gitD
+clear
+bootdev run 2b249442-a709-4bd9-a08d-a07a42f668b3 -s
+git bisect start
+git log --oneline 
+git bisect bad HEAD
+git bisect good 0d16f95
+vim
+git bisect good
+vim
+git bisect bad
+vim
+git bisect bad
+vim
+git bisect good
+git show 4663ea9c07a3b24d6524ce83fc6c4e0a891d9618
+git commit revert 4663ea9c07a3b24d6524ce83fc6c4e0a891d9618
+git revert 4663ea9c07a3b24d6524ce83fc6c4e0a891d9618
+git bisect reset
+git log --oneline 
+git revert 4663ea9c07a3b24d6524ce83fc6c4e0a891d9618
+bootdev run a20a043e-c69f-437e-b8a2-efeefe1c0e2b -s
+touch scripts/bisect.sh
+vim
+chmod +x scripts/bisect.sh
+git bisect start
+git bisect bad HEAD
+git log --oneline 
+git bisect good 0d16f95
+git bisect run ./scripts/bisect.sh
+vim
+git worktree list
+vim
+git worktree list
+bootdev run 0f4c1e0f-2fea-4b55-b105-c7d145e776fc -s
+vim
+mv ultracorp ../
+ls
+cd .
+cd ..
+ls
+bootdev run 0f4c1e0f-2fea-4b55-b105-c7d145e776fc -s
+cd megacorp
+b
+bootdev run 0f4c1e0f-2fea-4b55-b105-c7d145e776fc -s
+cd ..
+cd ultracorp
+gits
+cd megacorp
+vim
+git branch
+git bisect end
+git bisect reset
+git bisect end
+git branch
+git worktree remove ultracorp
+git branch
+bootdev run 84e7ac26-8d2f-4c67-afb1-bbd6b39f4f93 -s
+cd ..
+vim
+cat ../ultracorp/.git
+ls
+vim
+cd workspace
+ls
+ls -la ultracorp/.git
+ls -l ultracorp/.git
+cat ultracorp/.git
+cd megacorp
+bootdev run 84e7ac26-8d2f-4c67-afb1-bbd6b39f4f93 -s
+cd workspace
+rm -rf ultracorp
+cd megacorp
+bootdev run 84e7ac26-8d2f-4c67-afb1-bbd6b39f4f93 -s
+clear
+cd megacorp
+git log --oneline 
+clear
+git tag -a "candidate" -m "first sw version"
+git tag
+git lo
+git log --oneline 
+bootdev run 08279dd8-c768-4778-bdb6-853a072ff3c6 -s
+git tag -a v1.0.0 -m "first sw version"
+git tag
+git push origin tags
+git push origin --tags
+bootdev run 5f8324c5-1495-4697-ba25-e177a379aa32 -s
+cd workspace
+ls
+cd goland
+ls
+cd golang
+ls
+cd gator
+cd gator
+pgstop
+pgstart
+clear
+clear
+cd sql/schema
+goose postgres "postgres://federicoreghini:@localhost:5432/gator" up
+clear
+psql postgres
+clear
+cd gator
+cd sql/schema
+clear
+clear
+sqlc generate
+clear
+sqlc generate
+clear
+go run . agg
+go run . agg 1s
+clear
+goose postgres "postgres://federicoreghini:@localhost:5432/gator" up
+sqlc generate
+clear
+go run . Browse
+go run . browse
+go run . browse 10
+git add .
+touch README.md
+vim README.md
+go install github.com/your-username/gator@latest<\n>
+go install github.com/federicoReghini/gator@latest<\n>
+go build
+gator --version
+gator register
+clear
+go install .
+gator register
+clear
+vim
+cd .config
+ls $env.HOME/go/bin<\n>
+ls ~/go/bin<\n>
+cd gator
+go install .
+gator
+clear
+which gator
+vim
+cd ..
+ls
+cd gator
+vim
+go install .
+vim
+clear
+vim
+ls ~/go/bin<\n>
+gator 
+clear
+vim
+clear
+clear
+clear
+vim
+clear
+cd nvim
+nvim --version
+nvim update
+which nvim
+brew update nvim
+brew upgrade nvim
+nvim --version
+brew update --force --quiet<\n>brew upgrade<\n>
+brew uninstall --cask wezterm<\n>brew install --cask wezterm<\n>
+brew install --cask wezterm
+brew upgrade nvim
+clear
