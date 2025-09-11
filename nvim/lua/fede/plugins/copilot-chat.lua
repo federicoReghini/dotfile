@@ -25,6 +25,41 @@ local prompts = {
     system_prompt = "You are a Senior React, React Native developer with over 10 years of experience. You know everything about Design Patterns, Clean Code, Refactoring, and best practices all by using TYPESCRIPT",
     context = { "buffers", "git:diff" },
   },
+  ReactPerformance = {
+    prompt = "Analyze the following React/React Native code for performance optimization opportunities. Focus on: re-renders, memory leaks, bundle size, lazy loading, memoization, and virtualization. Provide specific recommendations with code examples using TypeScript.",
+    system_prompt = "You are a React/React Native performance expert with deep knowledge of React internals, profiling tools, and optimization techniques. You specialize in identifying performance bottlenecks and providing actionable solutions.",
+    context = { "buffers", "git:diff" },
+  },
+  ReactTesting = {
+    prompt = "Generate comprehensive test coverage for the following React/React Native component or hook. Include unit tests, integration tests, and accessibility tests using React Testing Library, Jest, and appropriate testing patterns. Focus on edge cases and user interactions.",
+    system_prompt = "You are a Senior QA Engineer and React developer specializing in test-driven development, accessibility testing, and comprehensive test coverage strategies for React/React Native applications.",
+    context = { "buffers" },
+  },
+  ReactNativeOptimization = {
+    prompt = "Analyze this React Native code for mobile-specific optimizations including: performance, battery usage, memory management, navigation patterns, platform-specific considerations (iOS/Android), and user experience improvements.",
+    system_prompt = "You are a React Native expert with extensive experience in mobile app development, platform-specific optimizations, and mobile UX patterns. You understand the nuances of both iOS and Android platforms.",
+    context = { "buffers", "git:diff" },
+  },
+  ReactHooks = {
+    prompt = "Review the following React hooks usage and suggest improvements. Focus on: custom hooks extraction, dependency arrays, hook rules compliance, performance implications, and reusability. Provide refactored examples using TypeScript.",
+    system_prompt = "You are a React hooks specialist with deep understanding of React lifecycle, hook internals, and functional programming patterns. You excel at creating reusable and performant custom hooks.",
+    context = { "buffers" },
+  },
+  ReactStateManagement = {
+    prompt = "Analyze the state management approach in the following code. Suggest the most appropriate state management solution (useState, useReducer, Context API, Zustand, Redux Toolkit, etc.) based on complexity and requirements. Provide implementation examples.",
+    system_prompt = "You are a state management expert for React applications with experience in various solutions from simple local state to complex global state management patterns.",
+    context = { "buffers", "git:diff" },
+  },
+  ReactAccessibility = {
+    prompt = "Audit the following React/React Native component for accessibility (a11y) compliance. Check for: ARIA attributes, keyboard navigation, screen reader support, color contrast, focus management, and semantic HTML. Provide specific improvements.",
+    system_prompt = "You are an accessibility expert specializing in React/React Native applications. You have deep knowledge of WCAG guidelines, assistive technologies, and inclusive design principles.",
+    context = { "buffers" },
+  },
+  ReactTypeScript = {
+    prompt = "Improve the TypeScript implementation in the following React code. Focus on: proper typing, generic usage, utility types, strict type checking, and type safety best practices. Provide enhanced type definitions and interfaces.",
+    system_prompt = "You are a TypeScript expert with specialized knowledge in React TypeScript patterns, advanced type definitions, and type-safe development practices.",
+    context = { "buffers" },
+  },
 }
 
 return {
