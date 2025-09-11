@@ -17,8 +17,13 @@ local prompts = {
   Concise = "Please rewrite the following text to make it more concise.",
   Commit = {
     prompt = "Write commit message for the change with commitizen convention. Keep the title under 50 characters and wrap message at 72 characters. Format as a gitcommit code block.",
-    context = "git:staged",
+    context = { "git:staged", "buffer" },
     model = "gpt-4o",
+  },
+  ReactDesignPattern = {
+    prompt = "Analyze the following code and suggest the most suitable React Design Pattern, Best practice to improve its structure and maintainability. Provide a brief explanation of why this pattern is appropriate or why the current approach is effective. Focus on best practices, scalability and performance. If the code is already well-structured, simply state that no changes are necessary and explain why.",
+    system_prompt = "You are a Senior React, React Native developer with over 10 years of experience. You know everything about Design Patterns, Clean Code, Refactoring, and best practices all by using TYPESCRIPT",
+    context = { "buffers", "git:diff" },
   },
 }
 
@@ -35,9 +40,10 @@ return {
     debug = true, -- Enable debugging
     question_header = "## Fede ",
     model = "claude-sonnet-4",
+    temperature = 0.2,
     sticky = {
       "@models Using claude-sonnet-4",
-      "#files",
+      "#buffers",
     },
 
     -- See Configuration section for rest

@@ -12398,3 +12398,1579 @@ brew uninstall --cask wezterm<\n>brew install --cask wezterm<\n>
 brew install --cask wezterm
 brew upgrade nvim
 clear
+vim
+clear
+pgstop
+clear
+cd ..
+clear
+clear
+mkdir chirpy
+cd chirpy
+cd chirpy
+go mod init git@github.com:federicoReghini/Chirpy.git
+go mod init github.com/federicoReghini/Chirpy
+touch main.go
+git init
+git add remote origin git@github.com-personal:federicoReghini/Chirpy.git
+git remote add origin git@github.com-personal:federicoReghini/Chirpy.git
+clear
+git add .
+go build
+go build -o out;  ./out
+clear
+bootdev run 861ada77-c583-42c8-a265-657f2c453103 -s
+cd chirpy
+bootdev run 861ada77-c583-42c8-a265-657f2c453103 -s
+clear
+go build -o out;  ./out
+clear
+git add .
+git log --oneline 
+"<html><\n>  <body><\n>    <h1>Welcome to Chirpy</h1><\n>  </body><\n></html>" | save index.html
+ls
+bootdev run 8cf7315a-ffc0-4ce0-b482-5972ab695131 -s
+go build -o out;  ./out
+clear
+bootdev run 20709716-4d7c-47fe-b182-9bccf8436ddc -s
+clear
+bootdev run 20709716-4d7c-47fe-b182-9bccf8436ddc -s
+go build -o out;  ./out
+go run .
+clear
+bootdev run a13ffa72-18b9-49f7-81a9-c5a17d007b3a -s
+go run .
+clear
+curl -X POST http://localhost:8080/healthz
+bootdev run d1c4962d-f55e-4f0f-ac9c-913db8ef8ae8 -s
+go run .
+clear
+vim
+clear
+vim
+cd gator
+vim
+vim
+cd chirpy
+bootdev run 0b877128-7dd0-4643-8fef-5d8faf9a1cc6 -s
+go run .
+bootdev run 892b38f7-d154-4591-ac63-a9fbc2a38187 -s
+clear
+go run .
+bootdev run 374ef0f7-1d2d-40b8-8cef-14e9ffd033ab -s
+go run .
+bootdev run 7cde3fa8-f38a-444e-92a6-83166a905cb0 -s
+go run .
+git log --oneline 
+psql postgres
+pgstart
+bootdev run c3e215a5-1d8f-437b-9f89-3606118800ec -s
+psql postgres
+clear
+go install github.com/pressly/goose/v3/cmd/goose@latest
+goose --version
+clear
+mkdir sql/schema/
+ls
+ls sql
+touch sql/schema/001_users.sql
+clear
+vin
+cd gator
+vim
+cd chirpy
+vim
+cd sql/schema
+goose postgres "postgres://federicoreghini:@localhost:5432/chirpy" up
+clear
+cd chirpy
+psql "postgres://federicoreghini:@localhost:5432/chirpy"
+psql chirpy
+goose postgres "postgres://federicoreghini:@localhost:5432/chirpy" down
+cd sql/schema
+goose postgres "postgres://federicoreghini:@localhost:5432/chirpy" down
+psql chirpy
+goose postgres "postgres://federicoreghini:@localhost:5432/chirpy" up
+bootdev run ea036a3f-6fa3-446a-ba20-c04cb913e12a -s
+clear
+clear
+touch sqlc.yaml
+vim sqlc.yaml
+clear
+vim
+sqlc generate
+go get github.com/google/uuid
+go get github.com/lib/pq
+touch .env
+vim .env
+touch .gitignore
+go get github.com/joho/godotenv
+cd gator
+vim main.go
+cd chirpy
+bootdev run e5bddf3d-d96b-487e-97e6-7a5aa06b1ee1 -s
+clear
+cd chirpy
+go run .
+psql chirpy
+sqlc generate
+go run .
+psql chirpy
+clear
+go run .
+clear
+go run .
+bootdev run 0820daf4-4006-425a-a50c-f45c0eb97d06 -s
+clear
+cd gator
+vim
+cd chirpy
+cd sql/schema
+goose postgres "postgres://federicoreghini:@localhost:5432/chirpy" up
+clear
+goose postgres "postgres://federicoreghini:@localhost:5432/chirpy" up
+cd gator
+cd chirpy
+cd sql/schema
+goose postgres "postgres://federicoreghini:@localhost:5432/chirpy" up
+cd chirpy
+sqlc generate
+psql chirpy
+go run .
+bootdev run acf357f0-ec20-429f-99ec-265963c2fedf -s
+clear
+clear
+cd chirpy
+clear
+psql chirpy
+bootdev run acf357f0-ec20-429f-99ec-265963c2fedf -s
+go run .
+cd gator
+vim
+cd chirpy
+sqlc generate
+go run .
+bootdev run acf357f0-ec20-429f-99ec-265963c2fedf -s
+clear
+vim
+git log --oneline 
+clear
+sqlc generate
+clear
+clear
+go run .
+bootdev run 341b80d4-556f-4c5b-8afc-ffd12d5238c2 -s
+psql chirpy
+go run .
+bootdev run 0a07a4a3-c11f-429f-ac70-52fa2e016bc0 -s
+clear
+pgstop
+clear
+vim
+clear
+gf
+git pull
+clear
+git pull origin develop
+gits
+gf
+gp
+gits
+clear
+gits
+gp
+git pull origin develop
+git pull
+cd retail
+vim
+git push
+clear
+gits
+git merge refactor/calendar
+git push
+clear
+gitd
+clear
+gits
+git pull origin develop
+gp
+vim
+git add ,
+git add .
+git rebase --continue
+vim
+git add .
+git rebase --continue
+vimn
+vim
+git add .
+git rebase --continue
+vim
+git rebase --skip
+vim
+git add .
+git rebase --continue
+vim
+git rebase --continue
+git add .
+git rebase --continue
+vim
+git add .
+git rebase --continue
+vim
+git add .
+git rebase --continue
+vim
+git rebase --abort
+git log --oneline 
+git pull
+vim
+git add .
+git rebase --continue
+vim
+git add ,
+git add .
+git rebase --continue
+vim
+git add .
+git rebase --continue
+vim
+git rebase --skip
+vim
+git add .
+git rebase --continue
+vim
+git add .
+git rebase --continue
+vim
+git add .
+git rebase --continue
+vim
+git rebase --skip
+vim
+git add .
+git rebase --continue
+vim
+git add .
+git rebase --continue
+vim
+git add .
+git rebase --continue
+git push
+clear
+gf
+git pull origin develop
+git pull
+vim
+git add .
+git rebase --continue
+vim
+git add .
+git rebase --continue
+vim
+git add .
+git rebase --continue
+vim
+git rebase --skip
+vim
+git add .
+git rebase --continue
+vim
+git add .
+git r
+git rebase --continue
+vim
+git add 
+git add .
+git rebase --continue
+vim
+git add .
+git rebase --continue
+vim
+git add .
+git rebase --continue
+vim
+git add .
+git rebase --continue
+vim
+git add .
+git rebase --continue
+git push
+git pull origin develop
+git rebase --abort
+vim
+npm run start
+npm install -g npm@11.5.2
+git push --force
+clear
+gitc
+git merge feature/524
+git push
+clear
+vim
+cd packages/ui
+cd clienteling
+vim
+cd retail
+vim
+clear
+npm run start
+clear
+cd clienteling
+cd retail
+c;ear
+clear
+vim
+clear
+vim
+pgstart
+clear
+touch sql/schema/003_users_psw.sql
+vim
+cd sql/schema
+goose postgres "postgres://federicoreghini:@localhost:5432/chirpy" up
+clear
+cd chirpy
+go get golang.org/x/crypto/bcrypt
+cd gator
+vim go.mod
+cd chirpy
+sqlc generate
+clear
+pgstop
+clda
+clear
+go run .
+pgstart
+sqlc generate
+go run .
+clear
+go run .
+bootdev run 294e5c16-d1e8-4836-871c-dedc98581236 -s
+clea
+clear
+go get -u github.com/golang-jwt/jwt/v5
+go get github.com/golang-jwt/jwt/v5
+go test -v ./internal/auth<\n>
+clear
+bootdev run be93db0d-4c6d-49cf-b56d-ba22392eb160 -s
+clear
+go test -v ./internal/auth<\n>
+	"fmt"<\n>
+go test -v ./internal/auth<\n>
+openssl rand -base64 64
+pgstart
+pgstop
+pgstart
+go run .
+bootdev run 0689e0d0-bdb1-4cc8-b577-f0dd0535ad00 -s
+cd sql/schema
+goose postgres "postgres://federicoreghini:@localhost:5432/chirpy" up
+cd chirpy
+clear
+pgstop
+clear
+sqlc generate
+clear
+pgstart
+go run .
+sqlc generate
+go run .
+psql chirpy
+clear
+psql chirpy
+bootdev run f7285cef-5185-4b15-b5fc-9533ccaafe8a -s
+go run .
+bootdev run f7285cef-5185-4b15-b5fc-9533ccaafe8a -s
+sqlc generate
+go run .
+bootdev run be14c814-e6c2-4b96-a361-e33bcfe71f00 -s
+clear
+go run .
+bootdev run 61628ee7-a227-45a2-ab79-2721a52db32a -s
+go run .
+bootdev run 61628ee7-a227-45a2-ab79-2721a52db32a -s
+psql chirpy
+clear
+bootdev run 61628ee7-a227-45a2-ab79-2721a52db32a -s
+clear
+go run .
+bootdev run 61628ee7-a227-45a2-ab79-2721a52db32a -s
+clear
+cd sql/schema
+goose postgres "postgres://federicoreghini:@localhost:5432/chirpy" up
+cd chirpy
+sqlc generate
+clear
+go run .
+bootdev run 1304e939-bf50-48d3-a351-b35faafc267d -s
+cd sql/schema
+goose postgres "postgres://federicoreghini:@localhost:5432/chirpy" down
+goose postgres "postgres://federicoreghini:@localhost:5432/chirpy" up
+cd chirpy
+sqlc generate
+go run .
+bootdev run 1304e939-bf50-48d3-a351-b35faafc267d -s
+clear\
+clear
+bootdev run eb86a031-f0f3-4939-9221-7112e5d272cf -s
+go run .
+bootdev run eb86a031-f0f3-4939-9221-7112e5d272cf -s
+clear
+sqlc generate
+bootdev run c1a4f8aa-de85-45fe-9e70-e49a98e14e3a -s
+sqlc generate
+go run .
+sqlc generate
+go run .
+pgstop
+pgstart
+go
+bootdev run c1a4f8aa-de85-45fe-9e70-e49a98e14e3a -s
+clear
+sqlc generate
+go run .
+bootdev run 2f20da66-64d8-47b4-8678-4a95cd06767a -s
+sqlc generate
+bootdev run 2f20da66-64d8-47b4-8678-4a95cd06767a -s
+clear
+sqlc generate
+clear
+bootdev run 2f20da66-64d8-47b4-8678-4a95cd06767a -s
+vim
+cd ..
+clear
+git clone git@github.com-personal:federicoReghini/learn-file-storage-s3-golang-starter.git tubely
+ls
+cd tubely
+vim
+go run .
+pgstop
+cd tubely
+cd tubely
+ckerar
+clear
+clear
+bootdev run 43acdbe6-abec-4648-ae79-3842066a03ad -s
+clear
+go run .
+clera
+./samplesdownload.sh
+xxd samples/boots-image-horizontal.png
+xxd -l 8 samples/boots-image-horizontal.png
+bootdev run a1b6ba47-d5e4-493e-a2cf-114270d4e7b1 -s
+brew install sqlite3
+sqlite3 tubely.db
+bootdev run 967db7bd-f506-4f8b-acc3-e14ee24ff00c -s
+go run .
+clear
+bootdev run 97314861-5ebe-4364-8936-53f39d8b2a04 -s
+clear
+vin
+bootdev run 01e6999d-29aa-4f1e-8618-6cb8129e83ed -s
+go run .
+bootdev run 01e6999d-29aa-4f1e-8618-6cb8129e83ed -s
+go run .
+clear
+clear
+go run .
+bootdev run 01e6999d-29aa-4f1e-8618-6cb8129e83ed -s
+clear
+vim
+clear
+tmux attach -t work
+go run .
+	"github.com/google/uuid"<\n>
+bootdev run 78d69134-fd38-44fd-b764-50348e81097f -s
+go run .
+bootdev run 78d69134-fd38-44fd-b764-50348e81097f -s
+clear
+go run .
+bootdev run 77abee5f-d10a-4fd5-adec-9b63130dad1 -s
+bootdev run 77abee5f-d10a-4fd5-adec-97b63130dad1 -s
+cd tubely
+bootdev run 77abee5f-d10a-4fd5-adec-97b63130dad1 -s
+clear
+bootdev run 77abee5f-d10a-4fd5-adec-97b63130dad1 -s
+clear
+go run .
+bootdev run 56c90fb4-ccfb-4378-b9b7-d664516803eb -s
+clear
+clera
+clear
+go run .
+bootdev run c80a344f-6848-4c25-b34d-29e0e18a5855 -s
+clera
+clear
+bootdev run c1388098-042f-47fb-96e0-3a37f52c9427 -s
+clear
+clear
+vim
+cd packages/ui
+vim
+cd retail
+cd clienteling
+vim
+curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"<\n>unzip awscliv2.zip<\n>sudo ./aws/install
+vi 
+vim
+cd
+curl "https://awscli.amazonaws.com/AWSCLIV2.pkg" -o "AWSCLIV2.pkg"<\n>sudo installer -pkg AWSCLIV2.pkg -target /
+which aws
+aws --version
+clear
+aws configure
+aws sts get-caller-identity
+cat ~/.aws/credentials
+bootdev run 0567917e-2392-47f3-af50-d0a199d49d45 -s
+cd retail
+gitS refactor_ui
+npm run start
+npm run start
+cd clienteling
+vim
+clear
+aws s3 ls
+bootdev run 0a5fc518-69a0-431a-b565-79630399820a -s
+clear
+aws s3 ls BUCKET_NAME > /tmp/bucket_contents.txt
+aws s3 ls tubely-49911 > /tmp/bucket_contents.txt
+aws s3 ls tubely-49911 | save --force /tmp/bucket_contents.txt<\n>
+cat /tmp/bucket_contents.txt
+bootdev run 634e3f1a-3ad8-43e3-8a54-28eebe86d5af -s
+go get github.com/aws/aws-sdk-go-v2/service/s3 github.com/aws/aws-sdk-go-v2/config
+go run .
+vim
+clear
+bootdev run ae1f6edb-2759-4a62-ba8c-b523dc3fff48 -s
+git log --oneline 
+gits
+gf
+git pull
+clear
+git switch feature/email-form-client-info
+git pull origin develop
+gits
+git merge feature/email-form-client-info
+git push
+git switch feature/attachments-improvement
+git pull origin develop
+vim
+git rebase --continue
+git push --force
+gits
+git merge feature/attachments
+git merge feature/attachments-improvement
+vim
+cd clienteling
+vim
+npm run start
+npm run update
+vim
+cd clienteling
+npm run update
+clear
+git tag -a "v1.0" -m "Released email-form improvement"
+git tag
+vim
+git log --oneline 
+git push origin --tags
+clear
+vim
+go run .
+clear
+gits
+gitd
+gitD
+gitd
+gitD
+clear
+gf
+vim
+clear
+cd nvim
+vim
+clear
+clear
+aws s3api head-object --bucket tubely-49911 --key https://tubely-49911.s3.eu-north-1.amazonaws.com/videos/a3ee1b53-43c2-4ebe-b935-6fb45557d42dc5a77781-70e0-4c48-ae66-2d71.mp4 > /tmp/object_metadata.txt
+aws s3api head-object --bucket tubely-49911 --key "videos/a3ee1b53-43c2-4ebe-b935-6fb45557d42dc5a77781-70e0-4c48-ae66-2d71.mp4" | save -f /tmp/object_metadata.txt
+clear
+bootdev run 44bbc0a9-f066-47e1-8f7b-927ee2255d6c -s
+aws s3 ls s3://tubely-49911/backups/
+bootdev run 0d57b209-b1f4-40f5-99d8-a137dc259531 -s
+aws s3 ls s3://tubely-49911/backups/ | save /tmp/s3_listing.txt
+bootdev run 0d57b209-b1f4-40f5-99d8-a137dc259531 -s
+clear
+ffmpeg --version
+ffmpeg -version
+ffprobe -version
+ffprobe -v error -print_format json -show_streams PATH_TO_VIDEO
+ffprobe -v error -print_format json -show_streams ./samples/boots-video-vertical.mp4
+vim
+go run .
+bootdev run 53e10939-c33d-4e53-b2d9-60ebbff36376 -s
+bootdev run 6f4522cb-4000-4f49-bf33-a81ffc85f053 -s
+gf
+gitS feature/attachments-page-improve
+vim
+gitS feature/bug-fix-email-wishlist
+vim
+gf
+gitS feature/attachments-improvement
+clera
+clear
+gf
+git pull
+gitd
+gits
+gitD
+gitS feature/attachments-improvement
+gitd
+gits
+gitd
+clear
+git switch origin feature/attachments-improvement
+git switch feature/attachments-improvement
+vim
+vim
+clear
+go run .
+clear
+vim
+gits
+gf
+git merge feature/attachments-improvement
+git push
+clear
+vim
+npm run start
+clear
+vim
+vim
+aws s3 cp samples/boots-image-horizontal.png s3://tubely-49911
+vim
+clear
+ifconfig -a
+ipconfig getifaddr en0
+aws s3 cp samples/boots-image-horizontal.png s3://tubely-49911
+bootdev run 638b857a-4020-4994-9c57-fde6937d0af0 -s
+ipconfig getifaddr en0
+curl ifconfig.me<\n>
+aws s3 cp samples/boots-image-horizontal.png s3://tubely-49911
+bootdev run 638b857a-4020-4994-9c57-fde6937d0af0 -s
+aws iam list-policies --scope Local --no-cli-pager
+bootdev run 6d91424a-c5ac-43d4-a39b-5d736f0bf759 -s
+bootdev run 281c3199-8c3d-41a5-9e8b-f8842c4277af -s
+vim
+bootdev run 71a1e425-7798-4fdd-a635-5a6050520794 -s
+go run .
+bootdev run 824e3d22-79e2-42f4-a4c9-7e9c1852adb5
+bootdev run 824e3d22-79e2-42f4-a4c9-7e9c1852adb5 -s
+bootdev upgrade
+bootdev run 824e3d22-79e2-42f4-a4c9-7e9c1852adb5
+bootdev run 824e3d22-79e2-42f4-a4c9-7e9c1852adb5 -s
+bootdev run 824e3d22-79e2-42f4-a4c9-7e9c1852adb5 
+go run .
+bootdev run 824e3d22-79e2-42f4-a4c9-7e9c1852adb5 
+aws s3 ls
+go run .
+gf
+clear
+gitS feature/product-card-refactor
+gitd
+git switch feature/product-card-refactor
+gits
+gitd
+git switch feature/product-card-refactor
+git pull origin develop
+vim
+git push --force
+vim
+cd packages/ui
+vim
+cd clienteling
+vim
+gits
+git merge feature/product-card-refactor
+git push
+clear
+npm run start
+clear
+npm run start
+clear
+go run .
+bootdev run 824e3d22-79e2-42f4-a4c9-7e9c1852adb5 
+bootdev run 824e3d22-79e2-42f4-a4c9-7e9c1852adb5 -s
+clear
+bootdev run 763f81ba-76af-4162-b3c5-e27822301efd -s
+go run .
+bootdev run 763f81ba-76af-4162-b3c5-e27822301efd -s
+go run .
+bootdev run 12c3079a-d98a-4170-b7cc-82029d53e5c1
+bootdev run 12c3079a-d98a-4170-b7cc-82029d53e5c1 -s
+bootdev run 12c3079a-d98a-4170-b7cc-82029d53e5c1 
+go run .
+bootdev run 12c3079a-d98a-4170-b7cc-82029d53e5c1 
+bootdev run 12c3079a-d98a-4170-b7cc-82029d53e5c1 -s
+clear
+bootdev run ebba6166-0c34-4af8-897b-811a63e51bab -s
+vim
+vim
+vim
+npm run start
+clear
+gits
+git pull origin develop
+git push
+aws s3api list-object-versions --bucket BUCKET --prefix bootsimg.png --no-cli-pager
+aws s3api list-object-versions --bucket tubely-49911 --prefix bootsimg.png --no-cli-pager
+aws s3api list-object-versions --bucket BUCKET --prefix bootsimg.png --no-cli-pager | save /tmp/versions.json
+aws s3api list-object-versions --bucket tubely-49911 --prefix bootsimg.png --no-cli-pager | save /tmp/versions.json
+aws s3api list-object-versions --bucket tubely-49911 --prefix bootsimg.png --no-cli-pager | save --force /tmp/versions.json
+bootdev run 23ac6b97-bae1-4494-a703-40785bfc250c -s
+bootdev run edd61b9e-51b9-4b2a-89fb-da6cb227f370 -s
+vim
+cd ..
+vim
+clear
+gits
+clear
+vim
+gf
+gits
+gp
+clear
+vim
+cd packages/ui
+vim
+cd clienteling
+vim
+clear
+npm run start
+clear
+nvim
+vim
+gf
+git pull origin develop
+vim
+git add .
+git rebase --continue
+vim
+git add .
+git rebase --continue
+git push --force
+clear
+git switch feature/product-card-refactor
+gp
+clear
+git merge refactor_ui
+git push
+npm run start
+gits
+git pull origin develop
+gits
+git merge feature/product-card-refactor
+git push
+gits
+git merge refactor_ui
+git push
+gits
+git pull origin develop
+git push --force
+clera
+vim
+clear
+npm run start
+clear
+vim
+git pull origin develop
+gits
+git merge feature/gauge
+git push
+clear
+gitd
+clear
+gitd
+clear
+gitD
+gits
+git pull origin develop
+git push
+clear
+vim
+vim
+gits
+git merge refactor_ui
+git push
+clear
+vim
+vim
+clear
+npm run start
+gf
+clear
+vim
+vim
+npm run start
+clear
+gf
+bootdev run a50d88f8-0ee6-4888-894a-5c27f74dc0ac -s
+docker login
+bootdev run d14c1a3a-1ffe-47f6-a371-f57de6465719 -s
+vim
+clear
+ngrok --version
+brew install ngrok
+json-server --version
+npm install -g json-server
+ngrok http 3000<\n>
+ngrok config add-authtoken 31y42EJqqlpW0Sa8LF2wxnyHejl_7xmy7ucQpDiJK9wnzAhkA
+npm run start
+ngrok http 3000<\n>
+clear
+git add .<\n>
+nvim
+gits
+gf
+gp
+vim
+clear
+docker pull docker/getting-started
+docker images
+bootdev run 02b6052a-4005-4541-8ab1-3f5dbd6bcfbe -s
+docker run -d -p 8965:80 docker/getting-started:latest
+docker ps
+bootdev run 64e612f6-15eb-443c-87e9-ab0983fcd50b -s
+docker ps
+docker stop f4e9e9ed3e94
+docker ps
+bootdev run 620d657d-2494-4ca2-ab44-9d8e321e4788 -s
+docker run -d -p 8965:80 docker/getting-started<\n>docker run -d -p 8966:80 docker/getting-started<\n>docker run -d -p 8967:80 docker/getting-started<\n>docker run -d -p 8968:80 docker/getting-started<\n>docker run -d -p 8969:80 docker/getting-started
+docker ps
+bootdev run e3415755-a0ae-46e7-b1cb-f0533cd01cbc -s
+docker volume create ghost-vol
+docker volume list
+docker volume inspect ghost-vol
+docker stop
+docker stop --help
+docker ps
+docker stop efa6994194a7
+docker stop c46fd6791508
+docker stop 22befec9103b
+docker stop d4121e0622fc
+docker stop b4a1edf39a64
+docker ps
+cleawr
+clear
+bootdev run e2bf006e-e99d-40ad-b9bc-83960e604a10 -s
+docker pull ghost
+docker run -d -e NODE_ENV=development -e url=http://localhost:3001 -p 3001:2368 -v ghost-vol:/var/lib/ghost ghost
+bootdev run fd85a13b-6f74-42d7-8c95-f292cb874f1d -s
+bootdev run d228d2a7-70bc-490e-9c64-bb44741f8c38 -s
+docker ps
+docker stop 1bb7b4710256
+docker run -d -e NODE_ENV=development -e url=http://localhost:3001 -p 3001:2368 -v ghost-vol:/var/lib/ghost ghost
+bootdev run 120b59b8-54a0-493a-82c0-bb3bc61b4073 -s
+docker ps -a
+docker ps
+docker rm 5d8b64029add 
+docker stop 5d8b64029add 
+docker rm 5d8b64029add 
+docker rm 5d8b64029add
+docker rm efa6994194a7
+docker rm c46fd6791508
+docker rm22befec9103b
+docker rm 22befec9103b
+docker rm d4121e0622fc
+docker rm b4a1edf39a64
+docker rm f4e9e9ed3e94
+docker ps -a
+docker rm 1bb7b4710256
+docker ps -a
+clear
+docker volume list
+docker volume rm ghost-vol
+clear
+bootdev run 46761584-6f63-4e28-9906-590ec623054a -s
+docker volume ls
+docker run -d -e NODE_ENV=development -e url=http://localhost:3001 -p 3001:2368 -v ghost-vol:/var/lib/ghost ghost
+bootdev run 46761584-6f63-4e28-9906-590ec623054a -s
+docker ps -a
+docker stop    PORTS                                         NAMES<\n>25334c3ae699
+docker stop 25334c3ae699
+docker rm 25334c3ae699
+bootdev run eb276e3c-7e66-4b1f-ba7a-f090f276cb73 -s
+docker volume ls
+docker volume rm ghost-vol
+bootdev run eb276e3c-7e66-4b1f-ba7a-f090f276cb73 -s
+docker ps
+docker run -d -p 8965:80 docker/getting-started
+docker ps
+docker exec bcc8ff556ac0 ls
+docker exec bcc8ff556ac0 touch hacker.log
+docker exec bcc8ff556ac0 ls
+bootdev run 71e17752-71de-47ef-b9db-0462225e2f00 -s
+docker exec bcc8ff556ac0 netstat -ltnp
+docker exec -it bcc8ff556ac0 /bin/sh
+bootdev run df992e07-215d-4995-8e72-496833352ff3 -s
+docker stop bcc8ff556ac0
+docker rm bcc8ff556ac0
+docker run -d --network none docker/getting-started
+docker ps
+docker exec 456d5717140c ping google.com -W 2
+docker pull caddy
+mkdir docker
+cd docker
+touch index1.html
+touch index2.html
+"<html><\n>  <body><\n>    <h1>Hello from server 1</h1><\n>  </body><\n></html>" | save --force index1.html
+"<html><\n>  <body><\n>    <h1>Hello from server 2</h1><\n>  </body><\n></html>" | save --force index2.html
+docker run -d -p 8881:80 -v $PWD/index1.html:/usr/share/caddy/index.html caddy
+docker run -d -p 8881:80 -v index1.html:/usr/share/caddy/index.html caddy
+docker run -d -p 8881:80 -v (pwd)/index1.html:/usr/share/caddy/index.html caddy<\n>
+docker run -d -p 8882:80 -v $PWD/index2.html:/usr/share/caddy/index.html caddy
+docker run -d -p 8882:80 -v (pwd)/index2.html:/usr/share/caddy/index.html caddy
+bootdev run 6f30791a-eeb5-4485-900c-6c8c0b760f8a -s
+docker network create caddytest
+docker network ls
+docker ps
+docker stop 456d5717140c
+docker rm 456d5717140c
+docker restart e52f805d21c4
+docker restart e52f805d21c4 --network caddytest
+docker stop e52f805d21c4
+docker stop 5220ea00c06b
+docker run -d -p 8882:80 -v (pwd)/index2.html:/usr/share/caddy/index.html caddy --network caddytest --name caddy2
+docker network ls
+docker run --network caddytest --name caddy2 -d -p 8882:80 -v (pwd)/index2.html:/usr/share/caddy/index.html caddy 
+docker run --network caddytest --name caddy1 -d -p 8881:80 -v (pwd)/index1.html:/usr/share/caddy/index.html caddy 
+docker ps
+docker stop db774b84d049
+docker rm db774b84d049
+docker stop 12c485ee860c
+docker rm 12c485ee860c
+docker run --network caddytest --name caddy1 -d -v (pwd)/index1.html:/usr/share/caddy/index.html caddy 
+docker run --network caddytest --name caddy2 -d -v (pwd)/index2.html:/usr/share/caddy/index.html caddy 
+docker run -it --network caddytest docker/getting-started /bin/sh
+bootdev run b8c15dd5-f758-4acc-a8e0-3a2b760e5be0 -s
+docker ps
+clear
+docker ps -a
+docker stop 237f33396d7f
+docker rm 237f33396d7f
+clear
+docker ps -a
+docker rm e52f805d21c4
+docker rm 5220ea00c06b
+clear
+docker ps -a
+clear
+touch Caddyfile
+"localhost:80<\n><\n>reverse_proxy caddy1:80 caddy2:80 {<\n>	lb_policy       round_robin<\n>}" | save --force Caddyfile
+cat Caddyfile
+clear
+docker run -d --network caddytest -p 8880:80 -v (pwd)/Caddyfile:/etc/caddy/Caddyfile caddy
+bootdev run 3fba6ac8-7913-4ef4-bb46-8408fee270e4 -s
+gf
+clera
+clear
+git pull origin develop
+vim
+git rebase --abort
+gtis
+gits
+vim
+clear
+gitd
+clera
+clear
+touch Dockerfile
+vim Dockerfile
+docker build . -t helloworld:latest
+docker run helloworld
+docker ps
+docker ps -a
+docker rm ecafdbf1314a
+docker ps -a
+clear
+bootdev run 55942ded-952a-4c61-b8dd-fedf26f2cd94 -s
+docker run helloworld
+bootdev run 55942ded-952a-4c61-b8dd-fedf26f2cd94 -s
+docker ps -a
+docker rm 9ac1a637bde0
+clear
+go mod init github.com/federicoReghini/go-server-docker
+touch main.go
+vim main.go
+go build
+ls
+./go-server-docker
+clear
+cd docker
+bootdev run c872b509-6ac9-41ea-a33f-e0e8cbbee627 -s
+cd docker
+clear
+./go-server-docker
+clear
+go build
+docker build . -t goserver:latest
+docker run -p 8010:8010 goserver
+GOOS=linux GOARCH=amd64 go build
+npm run start
+clear
+docker build . -t goserver:latest
+docker build . -t goserver:latest
+bootdev run 954c2417-023d-482a-9a5c-063db90cddd9 -s
+docker run -p 8010:8010 goserver
+clear
+export PORT="8999"
+let-env PORT = "8999"<\n>
+$env.PORT = "8999"<\n>
+go build
+./go-server-docker
+docker build . -t goserver:latest
+docker run -p 8991:8991 goserver
+GOOS=linux GOARCH=amd64 go build
+docker run -p 8991:8991 goserver
+docker build . -t goserver:latest
+docker run -p 8991:8991 goserver
+bootdev run 4c5cde1c-7f16-4ada-8ff1-88bd789f81c3 -s
+docker ps
+docker ps -1
+docker ps -a
+docker rm 040168754b51
+docker rm f3de44b2a27b
+docker rm 2bca77264169
+clear
+touch main.py
+vim main.py
+python --version
+python3 --version
+brew install python
+which python3
+python3 main.py
+vim
+python3 main.py
+bootdev run b494b034-37a3-4292-8923-f0901a12baae -s
+touch Dockerfile.py
+vim Dockerfile.py
+docker build -t bookbot -f Dockerfile.py .
+docker run bookbot
+bootdev run 2839fbf9-e6bd-4791-961e-56d62474540a -s
+vim Dockerfile.py
+docker build -t bookbot -f Dockerfile.py .
+vim Dockerfile.py
+docker build -t bookbot -f Dockerfile.py .
+docker run bookbot
+vimm
+vim Dockerfile.py
+docker build -t bookbot -f Dockerfile.py .
+docker run bookbot
+bootdev run 9d77bf9b-1e02-448c-8f75-58f40354da1c -s
+gf
+git switch feature/attachment-animated
+git pull origin develop
+vim
+git add .
+git rebase --continue
+vim
+vim
+npm run start
+git push --force
+clear
+git pull origin develop
+gits
+gf
+gp
+git merge feature/attachment-animated
+git push
+gits
+clear
+vim
+gitd
+clear
+clear
+docker run -d --name logdate alpine sh -c 'while true; do echo "LOGGING: $(date)"; sleep 1; done'
+docker ps
+docker logs
+docker logs abb39862ce06   a
+docker logs abb39862ce06
+docker logs abb39862ce06 -f
+docker logs --tail 5 abb39862ce06 
+bootdev run f15cbb53-89dc-4a3f-829f-e7083b7cb4e0 -s
+docker stop abb39862ce06 
+docker rm abb39862ce06 
+docker run -d --name cpu-stress alexeiled/stress-ng --cpu 2 --timeout 10m
+docker ps
+docker run -d --name mem-stress alexeiled/stress-ng --vm 1 --vm-bytes 1G --timeout 10m
+docker stats
+bootdev run 23b9d9c7-2e62-400b-a40e-5ec04a4aa4f2 -s
+docker top cpu-stress
+docker run -d --cpus="0.25" --name cpu-stress alexeiled/stress-ng --cpu 2 --timeout 10m
+docker ps
+docker stop 1b35a128ff1b
+docker run -d --cpus="0.25" --name cpu-stress alexeiled/stress-ng --cpu 2 --timeout 10m
+docker ps
+docker ps -1
+docker ps -a
+docker rm 1b35a128ff1b
+docker run -d --cpus="0.25" --name cpu-stress alexeiled/stress-ng --cpu 2 --timeout 10m
+docker stats
+bootdev run 0b3e26af-a217-4113-8686-2026e2dc9c8e -s
+docker ps
+docker stop 125ff3176bfe
+docker stop 85887dfece95
+docker rm 85887dfece95
+docker rm 125ff3176bfe
+clear
+GOOS=linux GOARCH=amd64 go build
+docker build . -t federicoreghini/goserver
+docker run -p 8991:8991 federicoreghini/goserver
+docker push federicoreghini/goserver
+docker login
+docker whoami
+docker --help
+docker info
+docker push federicoreghini/goserver
+docker info | grep Username<\n>
+docker info
+docker info | grep Username<\n>
+docker login
+docker info | grep Username<\n>
+cat ~/.docker/config.json | jq -r '.auths | keys[]'<\n>
+cat ~/.docker/config.json<\n>
+docker tag goserver federicoreghini/goserver:latest<\n>
+docker push federicoreghini/goserver:latest
+docker-credential-desktop list<\n>
+GOOS=linux GOARCH=amd64 go build
+docker build . -t federeghini/goserver
+docker run -p 8991:8991 federeghini/goserver
+docker push federeghini/goserver:latest
+docker ps
+docker ps -a
+docker rm cea829e4b0eb
+docker rm 88f74550e058
+docker rm 895cafee8686
+docker rm 
+docker rm 57336dca1e04
+docker rm 7153137042c0
+docker rm eadca820b3b2
+docker rm da09a10a2880
+docker rm bc6d76e6ffd9
+docker rm b4f11dac20d7
+docker rm 34c662eb2d75
+docker rm 0e8a1915ed4d
+docker rm dcb67d8dff48
+docker rm d03bd73ed6cf
+clear
+docker ps -a
+docker rm 07f0d5fd2650
+clear
+docker pull federeghini/goserver
+docker run -p 8991:8991 federeghini/goserver
+bootdev run 9f48a3a7-7e56-44f1-a51f-78c279a63fbe -s
+docker ps
+docker ps -a
+docker restart a199310493d5
+docker ps
+docker run -p 8991:8991 federeghini/goserver
+docker stop a199310493d5
+docker rm a199310493d5
+docker pull federeghini/goserver
+bootdev run f15cbb53-89dc-4a3f-829f-e7083b7cb4e0 -s
+docker logs logdate
+docker ps -a
+docker ps
+docker run -p 8991:8991 federeghini/goserver
+docker stop 68ee997d9f89
+docker rm 68ee997d9f89
+docker rm 27ce10afd4b0
+clear
+docker image federeghini/goserver
+docker image rm federeghini/goserver
+clear
+docker pull federeghini/goserver
+bootdev run f15cbb53-89dc-4a3f-829f-e7083b7cb4e0 -s
+docker ps -a
+clear
+docker run -p 8991:8991 federeghini/goserver
+clear
+docker ps -a
+docker rm 4355c072ffa9
+clear
+docker ps
+bootdev run f15cbb53-89dc-4a3f-829f-e7083b7cb4e0 -s
+docker logs logdate
+clear
+docker run --name logdate -p 8991:8991 federeghini/goserver
+bootdev run f15cbb53-89dc-4a3f-829f-e7083b7cb4e0 -s
+docker run --name logdate -p 8991:8991 federeghini/goserver
+docker ps
+docker ps -a
+docker start ddfb5f64248b 
+docker ps
+bootdev run f15cbb53-89dc-4a3f-829f-e7083b7cb4e0 -s
+docker stop ddfb5f64248b 
+docker rm ddfb5f64248b 
+vim
+vim
+docker logs
+docker ps
+docker ps -a
+vim
+docker ps -a
+docker ps
+clear
+docker ps
+docker logs logdate
+vim
+go build
+GOOS=linux GOARCH=amd64 go build
+docker build . -t federeghini/goserver
+docker run -p 8991:8991 federeghini/goserver
+docker ps
+docker run --name logdate -p 8991:8991 federeghini/goserver
+docker stop 568f1aa78f24
+docker rm 568f1aa78f24
+docker run -p 8991:8991 federeghini/goserver
+docker push federeghini/goserver:latest
+docker image rm federeghini/goserver
+docker ps
+docker ps -a
+docker rm 2a6e9644a730
+docker rm 09356893654f
+docker image rm federeghini/goserver
+docker pull federeghini/goserver
+bootdev run 9f48a3a7-7e56-44f1-a51f-78c279a63fbe -s
+clear
+bootdev run 9f48a3a7-7e56-44f1-a51f-78c279a63fbe -s
+clear
+docker run -p 8991:8991 federeghini/goserver
+clear
+clear
+gf
+git switch feature/product-card-refactor
+git switch feature/product-card-enhancement
+clear
+vim
+clear
+nvim
+clear
+GOOS=linux GOARCH=amd64 go build
+docker build . -t federeghini/goserver
+docker run -p 8991:8991 federeghini/goserver
+docker build . -t federeghini/goserver:0.2.0
+docker run -p 8991:8991 federeghini/goserver:0.2.0
+docker push federeghini/goserver:0.2.0
+docker ps
+docker ps -a
+docker rm 7680f8442d88
+docker rm 114a029888e0
+docker rm a70c2af933d4
+clera
+docker ps -a
+clear
+docker image rm federeghini/goserver
+docker pull federeghini/goserver:0.2.0
+bootdev run 16b669a2-858c-43c4-9e9a-ea082881c731 -s
+docker run -p 8991:8991 federeghini/goserver:0.2.0
+cd ..
+vim
+cd ..
+cd ..
+cd golang
+mkdir cicd
+cd cicd
+cd golang
+cd cicd
+cd golang
+cd cicd
+clear
+clear
+git clone git@github.com-personal:federicoReghini/learn-cicd-starter.git .
+clear
+cd cicd
+clear
+vim
+go run .
+go build -o notely && ./notely
+go build -o notely and ./notely
+go build -o notely; ./notely
+go run .
+cd cicd
+go build -o notely; ./notely
+cd cicd
+bootdev run 2ff0dbac-b147-4fd4-bcf6-79d77f658748 -s
+clear
+gitS addtests
+git push origin addtests
+got test./
+got test ./
+got test ./internal/auth
+go test ./internal/auth
+bootdev run 3180c16a-cd04-4cbd-adee-ddb4d1b1ba34 -s
+go test ./
+go test ./internal/auth
+clear
+go test ./internal/auth
+bootdev run 3180c16a-cd04-4cbd-adee-ddb4d1b1ba34 -s
+go test -cover ./internal/auth
+clear
+bootdev run f53688e2-4851-4704-ae1e-7837f84c64ca -s
+test -z $(go fmt ./...)
+bootdev run 870aede4-4948-4102-8960-4996c708e49d -s
+go install honnef.co/go/tools/cmd/staticcheck@latest
+staticcheck ./...
+brew install staticcheck
+staticcheck ./...
+vim
+cd ..
+vim
+gf
+git switch feature/fix-animation
+git pull origin develop
+gits
+git merge feature/fix-animation
+git push
+clear
+gitd
+clear
+clear
+vim
+clear
+gf
+source ~/.config/nushell/config.nu
+source ~/.config/nushell/config.nu
+clear
+gits testing
+gits feature/test
+gitd
+gits
+source ~/.config/nushell/config.nu
+gits
+source ~/.config/nushell/config.nu
+gitd
+clear
+clear
+git switch feature/product-card-division
+nvim
+gf
+git pull origin develop
+git add .
+vim
+git pull origin develop
+git push
+clear
+clear
+go install github.com/securego/gosec/v2/cmd/gosec@latest
+gosec ./...
+bootdev run a9027b1f-e5d7-4ece-8a3b-11292a882acc -s
+gosec ./...
+./scripts/buildprod.sh
+docker run -e PORT=8080 -p 8080:8080 federeghini/notely:latest
+docker build -t federeghini/notely:latest .
+bootdev run 93b823de-47a9-4980-8e72-a3bbb0e1fb71 -s
+docker run -e PORT=8080 -p 8080:8080 federeghini/notely:latest
+docker ps
+docker ps -a
+docker rm 6106423ec76c
+docker rm 6763d007d9a9
+docker rm a260ef3f53e3
+clear
+bootdev run 93b823de-47a9-4980-8e72-a3bbb0e1fb71 -s
+docker run -e PORT=8080 -p 8080:8080 federeghini/notely:latest
+clear
+docker build -t federeghini/notely:latest .
+docker --dubeg
+docker --debug
+./scripts/buildprod.sh
+docker build -t federeghini/notely:latest .
+bootdev run 93b823de-47a9-4980-8e72-a3bbb0e1fb71 -s
+docker run -e PORT=8080 -p 8080:8080 federeghini/notely:latest
+clear
+./scripts/buildprod.sh
+docker ps
+docker ps -a
+docker rm 26fac52a801c
+docker rm 858647cd6c44
+docker build -t federeghini/notely:latest .
+bootdev run 93b823de-47a9-4980-8e72-a3bbb0e1fb71 -s
+docker run -e PORT=8080 -p 8080:8080 federeghini/notely:latest
+bootdev run 93b823de-47a9-4980-8e72-a3bbb0e1fb71 -s
+clear
+gf
+git pull
+nvim
+clear
+git pull origin develop
+git add .
+vim
+git pull origin develop
+gits
+git merge feature/product-card-division
+git push
+clear
+docker ps
+docker ps -a
+docker rm 883a21afe140
+docker rm dc4e6515181c
+docker rm 3d509ba77934
+docker ps -a
+clear
+./scripts/buildprod.sh
+docker build -t federeghini/notely:latest .
+bootdev run 93b823de-47a9-4980-8e72-a3bbb0e1fb71 -s
+docker run -e PORT=8080 -p 8080:8080 federeghini/notely:latest
+docker ps -a
+docker restart 79490f9ee69a
+docker ps
+lsof -i :8080
+docker logs 79490f9ee69a
+curl -v http://localhost:8080/<\n>
+docker logs 79490f9ee69a
+curl -v http://localhost:8080/<\n>
+clear
+c
+clear
+bootdev run 93b823de-47a9-4980-8e72-a3bbb0e1fb71 -s
+docker ps
+docker exec -it 79490f9ee69a sh
+docker logs 79490f9ee69a
+docker ps
+docker logs 79490f9ee69a
+go build -o notely
+docker stop 79490f9ee69a
+docker rm 79490f9ee69a
+docker build -t federeghini/notely:latest .
+docker ps
+docker ps -a
+clear
+go build -o notely
+docker build -t federeghini/notely:latest .
+docker run -e PORT=8080 -p 8080:8080 federeghini/notely:latest
+docker ps -a
+docker rm 83aa40dcc67e
+GOOS=linux GOARCH=amd64 go build
+GOOS=linux GOARCH=amd64 go build -o notely .
+docker build -t federeghini/notely:latest .
+curl -v http://localhost:8080/<\n>
+docker run -e PORT=8080 -p 8080:8080 federeghini/notely:latest
+GOOS=linux GOARCH=amd64 go build -o notely .
+clear
+docker run -e PORT=8080 -p 8080:8080 federeghini/notely:latest
+clera
+clear
+GOOS=linux GOARCH=arm64 go build -o notely .
+docker ps 
+docker ps -a
+docker rm c1478d331089
+docker rm d94cc2ae079d
+clear
+docker build -t federeghini/notely:latest .
+curl -v http://localhost:8080/<\n>
+docker run -e PORT=8080 -p 8080:8080 federeghini/notely:latest
+vim
+gf
+nvim
+git config
+git config --local
+git merge origin master
+clear
+cd ..
+npm run test:hashtag
+npm run build
+cd lib
+npm publish
+nvim
+clear
+cd retail
+npm i
+cd ..
+npm run build
+cd lib
+npm publish
+npm run start
+cd ..
+npm run build
+npm publish
+npm i
+npm run start
+vim
+clear
+npm run build
+cd lib
+npm publish
+npm i
+npm run start
+cd ..
+npm run build
+cd lib
+npm publish
+clear
+npm run start
+clear
+source ~/.config/nushell/config.nu
+clear
+vim
+vim
+clear
+clear
+docker ps
+docker ps -a
+docker start 18b9e3ee6854 
+docker ps
+curl -v http://localhost:8080/<\n>
+bootdev run 93b823de-47a9-4980-8e72-a3bbb0e1fb71 -s
+docker stop 18b9e3ee6854 
+docker rm 18b9e3ee6854 
+GOOS=linux GOARCH=arm64 go build -o notely .
+docker build -t federeghini/notely:latest .
+clear
+bootdev run 93b823de-47a9-4980-8e72-a3bbb0e1fb71 -s
+curl -v http://localhost:8080/<\n>
+bootdev run 93b823de-47a9-4980-8e72-a3bbb0e1fb71 -s
+docker --version
+docker run -e PORT=8080 -p 8080:8080 federeghini/notely:latest
+./scripts/buildprod.sh
+docker ps -a
+docker rm 8115b8aed242
+clear
+./scripts/buildprod.sh
+clear
+clear
+./scripts/buildprod.sh
+docker ps -a
+clear
+docker build -t federeghini/notely:latest .
+docker run -e PORT=8080 -p 8080:8080 DOCKERHUB_NAMESPACE/notely:latest
+bootdev run 93b823de-47a9-4980-8e72-a3bbb0e1fb71 -s
+uname -m
+uname
+cd
+tar -xf google-cloud-cli-darwin-arm.tar.gz
+cd downloads
+tar -xf google-cloud-cli-darwin-arm.tar.gz
+./google-cloud-sdk/install.sh
+cd notely
+docker run -e PORT=8080 -p 8080:8080 federeghini/notely:latest
+cd cicd
+gcloud init
+npm run start
+clear
+gf
+git switch feature/end-tags
+vim
+npm run start
+gf
+vim
+npm run start
+gf
+clear
+npm run start
+cd retail
+cd ..
+ls
+rm -rf retail-platform-mono
+clear
+tmux attach -t work
+clear

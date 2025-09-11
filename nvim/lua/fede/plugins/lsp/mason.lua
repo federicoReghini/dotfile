@@ -39,6 +39,7 @@ return {
         "pyright",
         "jsonls",
         "yamlls",
+        "sqlls",
       },
     })
 

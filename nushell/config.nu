@@ -1027,11 +1027,16 @@ alias pip-upgrade = pip list --outdated --format=json | from json | each { |it| 
 # -- Custom Git Commands --
 
 #  Show and delete git branch with fzf
-def gits [] {
-    let branch = (git branch | fzf| into string | str trim)
-    if $branch != null {
-      git switch $branch
-    }
+def gits [branch_name?:string] {
+  if $branch_name != null {
+    git switch $branch_name
+    return
+  }
+
+  let branch = (git branch | fzf| into string | str trim)
+  if $branch != null {
+    git switch $branch
+  }
 }
 
 def gitS [branch_name] {

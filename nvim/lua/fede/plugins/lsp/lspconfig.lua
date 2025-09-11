@@ -64,6 +64,18 @@ return {
 
         opts.desc = "Restart LSP"
         keymap.set("n", "<leader>rs", ":LspRestart<CR>", opts) -- mapping to restart lsp if necessary
+
+        opts.desc = "Focus floating window"
+        keymap.set("n", "<leader>wf", function()
+          local windows = vim.api.nvim_list_wins()
+          for _, win in ipairs(windows) do
+            local config = vim.api.nvim_win_get_config(win)
+            if config.relative ~= "" then -- This is a floating window
+              vim.api.nvim_set_current_win(win)
+              break
+            end
+          end
+        end, opts)
       end,
     })
 
@@ -92,19 +104,6 @@ return {
         "stable",
         "rust-analyzer",
       },
-    })
-
-    vim.lsp.config("svelte", {
-      capabilities = capabilities,
-      on_attach = function(client, _)
-        vim.api.nvim_create_autocmd("BufWritePost", {
-          pattern = { "*.js", "*.ts" },
-          callback = function(ctx)
-            -- Here use ctx.match instead of ctx.file
-            client.notify("$/onDidChangeTsOrJsFile", { uri = ctx.match })
-          end,
-        })
-      end,
     })
 
     vim.lsp.config("graphql", {
@@ -154,8 +153,58 @@ return {
       },
     })
 
-    -- For servers that don't need special configuration, set up directly using vim.lsp.config
-    -- Get the list of installed servers from mason-lspconfig
+    vim.lsp.config("sqlls", {
+      capabilities = capabilities,
+      filetypes = { "sql", "mysql", "plsql", "postgresql", "sqlite" },
+      settings = {
+        sqlLanguageServer = {
+          connections = {
+            -- Example connection configurations
+            -- {
+            --   name = "local_postgres",
+            --   adapter = "postgresql",
+            --   host = "localhost",
+            --   port = 5432,
+            --   user = "postgres",
+            --   database = "mydb"
+            -- },
+            -- {
+          },
+          lint = {
+            rules = {
+              ["align-column-to-the-first"] = "error",
+              ["column-new-line"] = "error",
+              ["linebreak-after-clause-keyword"] = "error",
+              ["reserved-word-case"] = "error",
+              ["space-surrounding-operators"] = "error",
+              ["where-clause-new-line"] = "error",
+              ["align-where-clause-to-the-first"] = "error",
+            },
+          },
+          format = {
+            language = "postgresql", -- Specify PostgreSQL dialect
+            indent = "  ",
+            reservedWordCase = "upper", -- Match your style
+            linesBetweenQueries = 2,
+          },
+          completion = {
+            showColumns = true,
+            showTables = true,
+            showViews = true,
+            showFunctions = true,
+            showProcedures = true,
+          },
+        },
+      },
+      on_attach = function(_, bufnr)
+        -- Custom keymaps for SQL files
+        local opts = { buffer = bufnr, silent = true }
+        vim.keymap.set("n", "<leader>sf", vim.lsp.buf.format, opts)
+        vim.keymap.set("n", "<leader>sr", vim.lsp.buf.rename, opts)
+        vim.keymap.set("n", "<leader>sa", vim.lsp.buf.code_action, opts)
+      end,
+    })
+
     local installed_servers = mason_lspconfig.get_installed_servers()
     -- Configure diagnostic signs properly (using new API)
     -- Configure diagnostic symbols and display
@@ -181,7 +230,7 @@ return {
       severity_sort = true,
       float = {
         border = "rounded",
-        source = "always",
+        source = "if_many",
       },
     })
     -- Configure each installed server that doesn't have special configuration
@@ -193,6 +242,7 @@ return {
         and server_name ~= "graphql"
         and server_name ~= "emmet_ls"
         and server_name ~= "lua_ls"
+        and server_name ~= "sqlls"
       then
         vim.lsp.config(server_name, {
           capabilities = capabilities,
