@@ -13974,3 +13974,4 @@ rm -rf retail-platform-mono
 clear
 tmux attach -t work
 clear
+nvim
