@@ -17,10 +17,6 @@ after-login-command = []
 # so it won't be run twice on AeroSpace restart
 after-startup-command = ['exec-and-forget sketchybar']
 
-# Notify Sketchybar about workspace change
-exec-on-workspace-change = ['/bin/bash', '-c',
-    'sketchybar --trigger aerospace_workspace_change FOCUSED_WORKSPACE=$AEROSPACE_FOCUSED_WORKSPACE'
-]
 
 # Start AeroSpace at login
 start-at-login = false 

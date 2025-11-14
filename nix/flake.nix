@@ -1,6 +1,5 @@
 {
   description = "Zenful nix-darwin system flake";
-
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-unstable";
     nix-darwin.url = "github:LnL7/nix-darwin";
@@ -69,11 +68,11 @@
         onActivation.autoUpdate = true;
         onActivation.upgrade = true;
       };
- */
+ */ 
       fonts.packages = [
         pkgs.nerd-fonts.meslo-lg
         pkgs.nerd-fonts.hack
-      ];
+      ]; 
 
       system.activationScripts.applications.text = let
         env = pkgs.buildEnv {
@@ -95,6 +94,7 @@
         done
             '';
 
+
       system.defaults = {
         dock.autohide = true;
         finder.FXPreferredViewStyle = "clmv";
@@ -106,7 +106,7 @@
         enableKeyMapping= true;
       };
       # Set primary user for system defaults
-      system.primaryUser = "reghinifedericoeng";
+      system.primaryUser = "federicoreghini";
       # nix.package = pkgs.nix;
 
       # Necessary for using flakes on this system.
