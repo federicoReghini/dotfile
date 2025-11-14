@@ -13975,3 +13975,101 @@ clear
 tmux attach -t work
 clear
 nvim
+gp
+git push
+cp .zshrc ~/.zshrc
+clear
+cd nix
+nvim
+cd
+cd ..
+ls
+cd
+cd .config
+nvim
+darwin-rebuild switch --flake ~/.config/nix#mini
+cd nix
+darwin-rebuild switch --flake ~/.config/nix#mini
+sudo darwin-rebuild switch --flake ~/.config/nix#mini
+nvim
+sudo darwin-rebuild switch --flake ~/.config/nix#mini
+vim
+sudo darwin-rebuild switch --flake ~/.config/nix#mini
+vim
+tmux attach -t work
+cd .config
+cd nix
+sudo darwin-rebuild switch --flake ~/.config/nix#mini
+sudo nix upgrade-nix<\n>
+sudo darwin-rebuild switch --flake ~/.config/nix#mini
+nix flake update --commit-lock-file<\n>
+sudo darwin-rebuild switch --flake ~/.config/nix#mini
+cd
+cd ..
+cd shared
+ls
+mv Brave-Browser ~/desktop
+sudo mv Brave-Browser ~/desktop
+cd
+cd desktop
+ls
+clear
+cd //
+cd ..
+ls
+cd home
+ls
+cd
+ls
+clear
+node -v
+fnm ls
+fnm
+nfm --help
+fnm --help
+fnm list
+fnm list-remote
+fnm list
+fnm --help
+fnm install 24.11.1
+clear
+fnm list
+fnm default 24.11.1
+fnm list
+fnm uninstall 20.17.0
+fnm uninstall 23.3.0
+fnm uninstall 18.20.6
+clear
+node -v
+tmux attach -t work
+clear
+clear
+cd workspace
+cd workspace
+ls
+clear
+clear
+cd .config
+nvim
+clear
+nvim
+nvi
+cd nvim
+cd
+vim .ssh
+git config
+git config --list
+cd .config
+ls
+nvim
+vim
+nvim
+clear
+cd workspace
+ls
+cd golang
+cd ..
+cd .config
+git config --list
+git push
+git reset --soft HEAD~1
