@@ -4,76 +4,73 @@
     nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-unstable";
     nix-darwin.url = "github:LnL7/nix-darwin";
     nix-darwin.inputs.nixpkgs.follows = "nixpkgs";
-    # nix-homebrew.url = "github:zhaofengli-wip/nix-homebrew";
   };
 
-  outputs = inputs@{ self, nix-darwin, nixpkgs}:
+  outputs = inputs@{ self, nix-darwin, nixpkgs }:
   let
     configuration = { pkgs, config, ... }: {
 
-    nixpkgs.config.allowUnfree = true;
-      # List packages installed in system profile. To search by name, run:
-      # $ nix-env -qaP | grep wget
-      environment.systemPackages =
-        [
+      nixpkgs.config.allowUnfree = true;
+
+      environment.systemPackages = [
+        # --- Shell & CLI ---
+        pkgs.zsh-autosuggestions
+        pkgs.zsh-syntax-highlighting
+        pkgs.starship
+        pkgs.fzf
+        pkgs.zoxide
+        pkgs.bat
+        pkgs.eza
+        pkgs.fd
+        pkgs.ripgrep
+        pkgs.btop
+
+        # --- Git ---
+        pkgs.git
+        pkgs.gh
+        pkgs.lazygit
+
+        # --- Editor ---
+        pkgs.neovim
+
+        # --- Terminal + Multiplexer ---
+        pkgs.ghostty
+        pkgs.tmux
+
+        # --- Node.js (version manager) ---
+        pkgs.fnm
+        pkgs.pnpm
+
+        # --- Languages ---
+        pkgs.python313
+        pkgs.jdk17
+
+        # --- Utilities ---
+        pkgs.ffmpeg_6
+        pkgs.p7zip
+        pkgs.mas
         pkgs.carapace
+        pkgs.syncthing
+        pkgs.mkalias
+
+        # --- Window Management ---
+        pkgs.aerospace
+        pkgs.sketchybar
+
+        # --- GUI Apps (managed via Nix) ---
         pkgs.discord
         pkgs.docker
-        pkgs.ffmpeg_6
-        pkgs.fnm
-        pkgs.gh
-        pkgs.mkalias
-        pkgs.neovim
-        pkgs.nushell
         pkgs.obsidian
         pkgs.postman
-        pkgs.ripgrep
-        pkgs.syncthing
-        pkgs.tmux
-        # Previously homebrew packages
-        pkgs.eza
-        pkgs.fzf
-        pkgs.git
-        pkgs.mas
-        pkgs.pnpm
-        pkgs.starship
-        pkgs.zoxide
-        # Cask equivalents
         pkgs.brave
-        pkgs.wezterm
-        pkgs.p7zip  # alternative to the-unarchiver
+      ];
 
-        ];
-
-
-/*       homebrew = {
-        enable = true;
-        brews = [
-          "eza"
-          "fzf"
-          "git"
-          "mas"
-          "nushell"
-          "pnpm"
-          "starship"
-          "zoxide"
-        ];
-        casks = [
-        "firefox"
-        "the-unarchiver"
-        "font-hack-nerd-font"
-        "wezterm"
-        ];
-        onActivation.cleanup = "zap";
-        onActivation.autoUpdate = true;
-        onActivation.upgrade = true;
-      };
- */ 
       fonts.packages = [
         pkgs.nerd-fonts.meslo-lg
         pkgs.nerd-fonts.hack
-      ]; 
+      ];
 
+      # Create aliases in /Applications/Nix Apps so Spotlight finds them
       system.activationScripts.applications.text = let
         env = pkgs.buildEnv {
           name = "system-applications";
@@ -82,68 +79,53 @@
         };
       in
         pkgs.lib.mkForce ''
-        # Set up applications.
-        echo "setting up /Applications..." >&2
-        rm -rf /Applications/Nix\ Apps
-        mkdir -p /Applications/Nix\ Apps
-        find ${env}/Applications -maxdepth 1 -type l -exec readlink '{}' + |
-        while read -r src; do
-          app_name=$(basename "$src")
-          echo "copying $src" >&2
-          ${pkgs.mkalias}/bin/mkalias "$src" "/Applications/Nix Apps/$app_name"
-        done
-            '';
+          echo "setting up /Applications..." >&2
+          rm -rf /Applications/Nix\ Apps
+          mkdir -p /Applications/Nix\ Apps
+          find ${env}/Applications -maxdepth 1 -type l -exec readlink '{}' + |
+          while read -r src; do
+            app_name=$(basename "$src")
+            echo "copying $src" >&2
+            ${pkgs.mkalias}/bin/mkalias "$src" "/Applications/Nix Apps/$app_name"
+          done
+        '';
 
-
+      # macOS system defaults
       system.defaults = {
         dock.autohide = true;
         finder.FXPreferredViewStyle = "clmv";
         NSGlobalDomain.KeyRepeat = 2;
       };
 
+      # Remap Caps Lock → Control at system level
       system.keyboard = {
         remapCapsLockToControl = true;
-        enableKeyMapping= true;
+        enableKeyMapping = true;
       };
-      # Set primary user for system defaults
-      system.primaryUser = "federicoreghini";
-      # nix.package = pkgs.nix;
 
-      # Necessary for using flakes on this system.
+      system.primaryUser = "federicoreghini";
+
       nix.settings.experimental-features = "nix-command flakes";
 
-      # Enable alternative shell support in nix-darwin.
-      # programs.fish.enable = true;
-      # programs.nushell.enable = true;
-      programs.zsh.enableCompletion = false;
       programs.zsh.enable = true;
+      programs.zsh.enableCompletion = false;
 
-      # Set Git commit hash for darwin-version.
       system.configurationRevision = self.rev or self.dirtyRev or null;
-
-      # Used for backwards compatibility, please read the changelog before changing.
-      # $ darwin-rebuild changelog
       system.stateVersion = 5;
-
-      # The platform the configuration will be used on.
       nixpkgs.hostPlatform = "aarch64-darwin";
-
-      # home-manager.backupFileExtension = "backup";
-      # nix.configureBuildUsers = true;
-      # nix.useDaemon = true;
     };
   in
   {
-    # Build darwin flake using:
-    # $ darwin-rebuild build --flake .#mini
+    # Mac Mini (old machine)
     darwinConfigurations."mini" = nix-darwin.lib.darwinSystem {
-      modules = [
-      configuration
-      ];
+      modules = [ configuration ];
     };
 
-    # Expose the package set, including overlays, for convenience.
+    # Mac Pro (new machine) — change "macpro" to match: scutil --get LocalHostName
+    darwinConfigurations."macpro" = nix-darwin.lib.darwinSystem {
+      modules = [ configuration ];
+    };
+
     darwinPackages = self.darwinConfigurations."mini".pkgs;
   };
 }
-
